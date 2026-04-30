@@ -11,27 +11,27 @@
     "icon": "home"
   },
   {
-    "title": "开始使用",
+    "title": "使用指南",
     "icon": "telescope",
     "collapsible": false,
     "children": [
       {
-        "title": "指定地点",
+        "title": "地点输入",
         "path": "/guides/location",
         "icon": "map"
       },
       {
-        "title": "指定日期",
+        "title": "日期输入",
         "path": "/guides/date",
         "icon": "calendar-1"
       },
       {
-        "title": "指定天体",
+        "title": "天体输入",
         "path": "/guides/star",
         "icon": "sparkle"
       },
       {
-        "title": "计算结果",
+        "title": "结果显示",
         "path": "/guides/results",
         "icon": "orbit"
       }

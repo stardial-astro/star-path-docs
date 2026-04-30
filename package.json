@@ -2,13 +2,15 @@
   "name": "star-path-docs",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "packageManager": "yarn@4.14.1",
   "scripts": {
     "dev": "docmd dev",
+    "live": "docmd live",
     "build": "docmd build",
     "preview": "npx serve site"
   },
-  "dependencies": {
+  "devDependencies": {
     "@docmd/core": "^0.7.6"
   }
 }

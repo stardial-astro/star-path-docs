@@ -1,0 +1,60 @@
+/* Default: light */
+.img-light,
+.img-dark {
+  display: none;
+}
+
+body[data-theme='light'] .img-light {
+  display: block;
+}
+body[data-theme='light'] .img-dark {
+  display: none;
+}
+
+body[data-theme='dark'] .img-light {
+  display: none;
+}
+body[data-theme='dark'] .img-dark {
+  display: block;
+}
+
+body[data-theme='dark'] {
+  --bg-color: #121212;
+}
+
+.hero-banner {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.hero-content p {
+  font-size: 1rem;
+}
+
+.hero-content img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.logo-link img {
+  padding: 3px;
+}
+
+@media (max-width: 768px) {
+  .logo-link img {
+    margin-left: 6px;
+  }
+}

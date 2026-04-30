@@ -8,8 +8,8 @@ export default defineConfig({
 
   /* --- Branding --- */
   logo: {
-    light: 'assets/images/spv-logo-title.png',
-    dark: 'assets/images/spv-logo-title.png',
+    light: 'assets/images/spv-logo-docs-light.png',
+    dark: 'assets/images/spv-logo-docs-dark.png',
     alt: 'StarPathViewer Logo',
     href: 'https://star-path-viewer.pages.dev/',
   },
@@ -24,12 +24,11 @@ export default defineConfig({
   autoTitleFromH1: true,
   copyCode: true,
   pageNavigation: true,
-  customJs: [],
+  customJs: ['/assets/js/theme-fix.js'],
 
   editLink: {
     enabled: true,
     baseUrl: 'https://github.com/stardial-astro/star-path-docs/edit/main/docs',
-    text: 'Edit this page on GitHub',
   },
 
   /* --- Theme Settings --- */
@@ -37,7 +36,7 @@ export default defineConfig({
     name: 'default', // Options: 'default', 'sky', 'ruby', 'retro'
     appearance: 'system', // 'light', 'dark', or 'system'
     codeHighlight: true,
-    customCss: [],
+    customCss: ['/assets/css/custom.css'],
   },
 
   /* --- Layout & UI Architecture --- */
@@ -75,7 +74,12 @@ export default defineConfig({
     default: 'en',
     position: 'sidebar-top',
     locales: [
-      { id: 'en', label: 'English', dir: 'ltr' },
+      {
+        id: 'en',
+        label: 'English',
+        dir: 'ltr',
+        translations: { editThisPage: 'Edit this page on GitHub' },
+      },
       {
         id: 'zh',
         label: '简体中文',
@@ -86,7 +90,7 @@ export default defineConfig({
           next: '下一页',
           search: '搜索',
           toggleTheme: '切换主题',
-          editThisPage: '编辑本页',
+          editThisPage: '在 GitHub 上编辑本页',
           selectLanguage: '选择语言',
           selectVersion: '选择版本',
           fallbackMessage:
@@ -103,7 +107,7 @@ export default defineConfig({
           next: '下一頁',
           search: '搜索',
           toggleTheme: '切換主題',
-          editThisPage: '編輯本頁',
+          editThisPage: '在 GitHub 上編輯本頁',
           selectLanguage: '選擇語言',
           selectVersion: '選擇版本',
           fallbackMessage:

@@ -1,0 +1,78 @@
+---
+title: 'Star Input'
+description: 'Specify a celestial object.'
+---
+
+Specify a target using either of the following three methods.
+
+## Select a Planet
+
+![Select Planet](../../../assets/images/image-28.png){ .img-light } ![Select Planet](../../../assets/images/image-29.png){ .img-dark }
+
+## Provide a Hipparcos Catalogue Number (HIP)
+
+### Search HIP by Number
+
+Enter a number, then select one suggestion from the drop-down list.
+
+![HIP by Number](../../../assets/images/image-30.png){ .img-light } ![HIP by Number](../../../assets/images/image-31.png){ .img-dark }
+
+As shown above, any available Bayer Designation, proper name, or Chinese name of the star will be displayed next to its HIP. Only the number is displayed on selection.
+
+::: callout info "Available HIP Range"
+The available HIP in the [data source][HIP data] ranges from `1` to `118322`. Although there are stars with greater HIP in the catalogue, they lack the required information and those entries are barely needed in most cases.
+
+If a HIP is invalid even within the range, a notification will appear after submitting the request.
+![No radec](../../../assets/images/image-32.png){ .img-light } ![No radec](../../../assets/images/image-33.png){ .img-dark } ![No entry](../../../assets/images/image-34.png){ .img-light } ![No entry](../../../assets/images/image-35.png){ .img-dark }
+
+[HIP data]: https://cdsarc.cds.unistra.fr/ftp/cats/I/239
+
+:::
+
+### Search HIP by Proper Name or Bayer Designation
+
+Enter a [proper name][] or [Bayer designation][] (case-insensitive) and choose a star from the drop-down list to get its HIP.
+
+![HIP by Proper Name or Bayer Designation](../../../assets/images/image-36.png){ .img-light } ![HIP by Proper Name or Bayer Designation](../../../assets/images/image-37.png){ .img-dark }
+
+The Greek Romanization is:
+
+```text
+α → alf   β → bet   γ → gam   δ → del     ε → eps   ζ → zet
+η → eta   θ → the   ι → iot   κ → kap     λ → lam   μ → mu
+ν → nu    ξ → ksi   ο → omi   π → pi      ρ → rho   σ → sig
+τ → tau   υ → ups   φ → phi   χ → chi/xi  ψ → psi   ω → ome
+```
+
+[proper name]: https://en.wikipedia.org/wiki/Stellar_designations_and_names
+[Bayer designation]: https://en.wikipedia.org/wiki/Bayer_designation
+
+### Search HIP by Name in Traditional/Simplified Chinese or Pinyin
+
+![HIP by Pinyin](../../../assets/images/image-38.png){ .img-light } ![HIP by Pinyin](../../../assets/images/image-39.png){ .img-dark }
+
+::: callout tip "Typing Pinyin"
+When searching a name by pinyin, avoid spaces between syllables. We also use this convention to display the pinyin in the results for a more compact appearance.
+
+You can use either `v`, `yu`, or `u` for `ü`.
+:::
+
+::: callout info "Proper Motion Included"
+Proper motion is included if the target is specified by a Hipparcos Catalogue number.
+:::
+
+## Specify RA/Dec as the Target
+
+Enter the [International Celestial Reference System (ICRS)][ICRS] coordinates [Right Ascension (RA)][RA] in **HMS** (Hour, Minute, and Second) format and [Declination (Dec)][Dec] in **DMS** (Degree, Minute, and Second) format, or both in **decimal degrees**.
+
+![Radec in HMS and DMS](../../../assets/images/image-40.png){ .img-light } ![Radec in HMS and DMS](../../../assets/images/image-41.png){ .img-dark }
+
+![Radec in decimal degrees](../../../assets/images/image-42.png){ .img-light } ![Radec in decimal degrees](../../../assets/images/image-43.png){ .img-dark }
+
+::: callout info "No Proper Motion"
+Proper motion is not considered if the target is specified by RA/Dec, because the values are the coordinates of a point, and there may not be any actual celestial bodies at this position.
+:::
+
+[ICRS]: https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/
+[RA]: https://en.wikipedia.org/wiki/Right_ascension
+[Dec]: https://en.wikipedia.org/wiki/Declination
