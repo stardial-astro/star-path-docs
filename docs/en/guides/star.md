@@ -13,29 +13,29 @@ Specify a target using either of the following three methods.
 
 ### Search HIP by Number
 
-Enter a number, then select one suggestion from the drop-down list.
-
+Enter a number then select one suggestion from the drop-down list.
 ![HIP by Number](../../../assets/images/image-30.png){ .img-light } ![HIP by Number](../../../assets/images/image-31.png){ .img-dark }
 
-As shown above, any available Bayer Designation, proper name, or Chinese name of the star will be displayed next to its HIP. Only the number is displayed on selection.
+As shown above, the HIP and any available [Bayer designation][], [proper name][], or Chinese names of the star are shown side by side for your reference.
 
 ::: callout info "Available HIP Range"
-The available HIP in the [data source][HIP data] ranges from `1` to `118322`. Although there are stars with greater HIP in the catalogue, they lack the required information and those entries are barely needed in most cases.
+The available HIP filtered from the [HIP data source][HIP data] ranges from `1` to `118322`. Although there are objects with greater HIP in the original catalogue, they lack the required information and those entries are barely needed in most cases, hence excluded in this app.
 
-If a HIP is invalid even within the range, a notification will appear after submitting the request.
+If a HIP is invalid even within the range, a notification will appear after submitting the request:
 ![No radec](../../../assets/images/image-32.png){ .img-light } ![No radec](../../../assets/images/image-33.png){ .img-dark } ![No entry](../../../assets/images/image-34.png){ .img-light } ![No entry](../../../assets/images/image-35.png){ .img-dark }
 
+[Bayer designation]: https://en.wikipedia.org/wiki/Bayer_designation
+[proper name]: https://en.wikipedia.org/wiki/Stellar_designations_and_names
 [HIP data]: https://cdsarc.cds.unistra.fr/ftp/cats/I/239
 
 :::
 
 ### Search HIP by Proper Name or Bayer Designation
 
-Enter a [proper name][] or [Bayer designation][] (case-insensitive) and choose a star from the drop-down list to get its HIP.
-
+Enter a **proper name** or **Bayer designation** (case-insensitive), then select one suggestion from the drop-down list to get its HIP.
 ![HIP by Proper Name or Bayer Designation](../../../assets/images/image-36.png){ .img-light } ![HIP by Proper Name or Bayer Designation](../../../assets/images/image-37.png){ .img-dark }
 
-The Greek Romanization is:
+::: callout info "Greek Romanization"
 
 ```text
 α → alf   β → bet   γ → gam   δ → del     ε → eps   ζ → zet
@@ -44,11 +44,11 @@ The Greek Romanization is:
 τ → tau   υ → ups   φ → phi   χ → chi/xi  ψ → psi   ω → ome
 ```
 
-[proper name]: https://en.wikipedia.org/wiki/Stellar_designations_and_names
-[Bayer designation]: https://en.wikipedia.org/wiki/Bayer_designation
+:::
 
-### Search HIP by Name in Traditional/Simplified Chinese or Pinyin
+### Search HIP by Chinese Name in Traditional/Simplified Chinese or Pinyin
 
+Enter a name in **Traditional/Simplified Chinese** or **Pinyin**, then select one suggestion from the drop-down list to get its HIP.
 ![HIP by Pinyin](../../../assets/images/image-38.png){ .img-light } ![HIP by Pinyin](../../../assets/images/image-39.png){ .img-dark }
 
 ::: callout tip "Typing Pinyin"
@@ -58,15 +58,17 @@ You can use either `v`, `yu`, or `u` for `ü`.
 :::
 
 ::: callout info "Proper Motion Included"
-Proper motion is included if the target is specified by a Hipparcos Catalogue number.
+[Proper motion][] is included in calculation if the target is specified by a Hipparcos Catalogue number.
+
+[Proper motion]: https://en.wikipedia.org/wiki/Proper_motion
+
 :::
 
 ## Specify RA/Dec as the Target
 
-Enter the [International Celestial Reference System (ICRS)][ICRS] coordinates [Right Ascension (RA)][RA] in **HMS** (Hour, Minute, and Second) format and [Declination (Dec)][Dec] in **DMS** (Degree, Minute, and Second) format, or both in **decimal degrees**.
-
+Enter the [International Celestial Reference System (ICRS)][ICRS] coordinates [Right Ascension (RA)][RA] in **HMS** (Hour, Minute, and Second) format and [Declination (Dec)][Dec] in **DMS** (Degree, Minute, and Second) format:
 ![Radec in HMS and DMS](../../../assets/images/image-40.png){ .img-light } ![Radec in HMS and DMS](../../../assets/images/image-41.png){ .img-dark }
-
+or both in **decimal degrees**:
 ![Radec in decimal degrees](../../../assets/images/image-42.png){ .img-light } ![Radec in decimal degrees](../../../assets/images/image-43.png){ .img-dark }
 
 ::: callout info "No Proper Motion"

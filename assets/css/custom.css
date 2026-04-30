@@ -58,3 +58,11 @@ h2 {
     margin-left: 6px;
   }
 }
+
+.sidebar-menu-button {
+  margin-right: 4px;
+}
+
+.card {
+  margin-bottom: 0;
+}

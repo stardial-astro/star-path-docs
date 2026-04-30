@@ -8,7 +8,6 @@ Specify the observer's **local date** by filling out each field or querying an *
 ## Enter a Date in the Gregorian or Julian Calendar
 
 The valid date range is from **February 23, 3001 BCE (Julian)** to **May 6, 3000 CE (Gregorian)**.
-
 ![Enter date](../../../assets/images/image-16.png){ .img-light } ![Enter date](../../../assets/images/image-17.png){ .img-dark }
 
 The `Year` input value follows the [astronomical year numbering][]. `0` means **1 BCE**.
@@ -30,7 +29,6 @@ The date in the [Chinese calendar][CC-python] will be [displayed as a tooltip][C
 ## Look Up an Equinox/Solstice
 
 When the `Year` is given and a location is specified, click one of the four **equinox/solstice** buttons on the `Quick Entry` panel to auto-fill the date in the **Standard Time** of this location.
-
 ![Equinoxes/Solstices](../../../assets/images/image-18.png){ .img-light } ![Equinoxes/Solstices](../../../assets/images/image-19.png){ .img-dark }
 
 ::: callout info

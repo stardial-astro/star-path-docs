@@ -8,7 +8,6 @@ description: '填寫年月日或快速輸入二分二至日期'
 ## 輸入格里曆或儒略曆日期
 
 可查詢的日期範圍為：**公元前3001年2月23日（儒略曆）**至**公元3000年5月6日（格里曆）**。
-
 ![輸入日期](../../../assets/images/image-24.png){ .img-light } ![輸入日期](../../../assets/images/image-25.png){ .img-dark }
 
 `年`的輸入值根據 [天文計年法][astronomical year numbering]，`0` 表示**公元前1年**。
@@ -30,7 +29,6 @@ description: '填寫年月日或快速輸入二分二至日期'
 ## 查詢二分二至日期
 
 當`年`給定且已經選定了地點時，點擊`快捷輸入`面板上其中一個**二分二至**按鈕，可自動填入相應日期。該日期以當地的**標準時間**顯示。
-
 ![二分二至](../../../assets/images/image-26.png){ .img-light } ![二分二至](../../../assets/images/image-27.png){ .img-dark }
 
 ::: callout info

@@ -10,7 +10,6 @@ description: '搜索地点或输入经纬度'
 ## 定位当前位置
 
 在`搜索地址`模式，点击按钮进行定位。这一步会自动设定**经纬度**。如果定位失败，将自动使用 IP 地址获得粗略的经纬度。
-
 ![定位当前位置](../../../assets/images/image-8.png){ .img-light } ![定位当前位置](../../../assets/images/image-9.png){ .img-dark }
 
 ## 搜索地址
@@ -19,11 +18,9 @@ description: '搜索地点或输入经纬度'
 
 确定地址后，后台将同时记录得到的经纬度数据。此时如果切换到`输入坐标`模式，会发现经纬度已经填好了。
 需要注意的是如果此时再次切回`搜索地址`模式，地理位置信息将被清空。
-
 ![显示经纬度](../../../assets/images/image-6.png){ .img-light } ![显示经纬度](../../../assets/images/image-7.png){ .img-dark }
 
 境外的默认地理位置服务是 [Nominatim][]，使用开放地图数据 [OpenStreetMap][]。 在墙内将使用[天地图][Tianditu]进行定位以及[腾讯位置服务][QQ LBS service]进行搜索。这种情况推荐使用中文搜索以得到相对准确的结果。
-
 ![使用腾讯位置服务](../../../assets/images/image-4.png){ .img-light } ![使用腾讯位置服务](../../../assets/images/image-5.png){ .img-dark }
 
 ::: callout warning

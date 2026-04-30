@@ -6,7 +6,7 @@ titleAppend: false
 
 ::: hero
 
-# 歡迎使用 Star Path Viewer
+# 歡迎使用 Star&nbsp;Path&nbsp;Viewer
 
 <img src="../../assets/images/spv-preview-dark.png" alt="預覽" width="300" class="img-dark size-medium align-center">
 <img src="../../assets/images/spv-preview-light.png" alt="預覽" width="300" class="img-light size-medium align-center">
