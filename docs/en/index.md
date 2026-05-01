@@ -27,11 +27,11 @@ An astronomical application for tracking the apparent motion of a given celestia
 **Step 2.** Click the [`DRAW STAR PATH`][Draw] button to submit the request. The results will be displayed below this button.
 
 ::: callout tip "There are other things you can do using this app as a handy gizmo"
-→ [Obtain the **latitude/longitude** of a location by searching an address.][Search Address]
-→ [Query the **equinox/solstice** dates of a certain year.][Quick Entry]
-→ [Check a date in multiple **calendars**.][Enter Date]
-→ [Look up a star's **Hipparcos Catalogue** number by its name, and vice versa.][HIP]
-→ [By querying a star's that shows up tonight, view the **sunset and twilight times** from the results to determine the ideal time to observe the aurora borealis or meteor showers.][Anno]
+**→** [Obtain the **latitude/longitude** of a location by searching an address.][Search Address]
+**→** [Query the **equinox/solstice** dates of a certain year.][Quick Entry]
+**→** [Check a date in multiple **calendars**.][Enter Date]
+**→** [Look up a star's **Hipparcos Catalogue** number by its name, and vice versa.][HIP]
+**→** [By querying a star's that shows up tonight, view the **sunset and twilight times** from the results to determine the ideal time to observe the aurora borealis or meteor showers.][Anno]
 
 [Search Address]: ./guides/location/#search-address
 [Quick Entry]: ./guides/date/#look-up-an-equinoxsolstice

@@ -5,65 +5,67 @@ __metadata:
   version: 9
   cacheKey: 10c0
 
-"@docmd/api@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/api@npm:0.7.6"
+"@docmd/api@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/api@npm:0.7.7"
   dependencies:
-    "@docmd/parser": "npm:^0.7.6"
-    chalk: "npm:^4.1.2"
-  checksum: 10c0/aae6d5c3539cb47b8d9e1c86f30e5e0a2b8613e85083fec62f86a28ba0487669d31c831d8551780c8fa82db74b52d88c9c12259959370525bf4295a9919ef615
+    "@docmd/parser": "npm:^0.7.7"
+    "@docmd/tui": "npm:^0.7.7"
+  checksum: 10c0/3cfedc7d8f7771160f65c38972a22f5c79b9a6ceeb833046323dba3ba106808b94f25c9ff51c0bd9c4d66e9e1b893bb3925802c080be0618f6f686c1438f0d6c
   languageName: node
   linkType: hard
 
-"@docmd/core@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/core@npm:0.7.6"
+"@docmd/core@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/core@npm:0.7.7"
   dependencies:
-    "@docmd/api": "npm:^0.7.6"
-    "@docmd/live": "npm:^0.7.6"
-    "@docmd/parser": "npm:^0.7.6"
-    "@docmd/plugin-analytics": "npm:^0.7.6"
-    "@docmd/plugin-installer": "npm:^0.7.6"
-    "@docmd/plugin-llms": "npm:^0.7.6"
-    "@docmd/plugin-mermaid": "npm:^0.7.6"
-    "@docmd/plugin-pwa": "npm:^0.7.6"
-    "@docmd/plugin-search": "npm:^0.7.6"
-    "@docmd/plugin-seo": "npm:^0.7.6"
-    "@docmd/plugin-sitemap": "npm:^0.7.6"
-    "@docmd/themes": "npm:^0.7.6"
-    "@docmd/ui": "npm:^0.7.6"
-    chalk: "npm:^4.1.2"
+    "@docmd/api": "npm:^0.7.7"
+    "@docmd/live": "npm:^0.7.7"
+    "@docmd/parser": "npm:^0.7.7"
+    "@docmd/plugin-analytics": "npm:^0.7.7"
+    "@docmd/plugin-installer": "npm:^0.7.7"
+    "@docmd/plugin-llms": "npm:^0.7.7"
+    "@docmd/plugin-mermaid": "npm:^0.7.7"
+    "@docmd/plugin-pwa": "npm:^0.7.7"
+    "@docmd/plugin-search": "npm:^0.7.7"
+    "@docmd/plugin-seo": "npm:^0.7.7"
+    "@docmd/plugin-sitemap": "npm:^0.7.7"
+    "@docmd/themes": "npm:^0.7.7"
+    "@docmd/tui": "npm:^0.7.7"
+    "@docmd/ui": "npm:^0.7.7"
     esbuild: "npm:^0.28.0"
     ws: "npm:^8.20.0"
   bin:
     docmd: dist/bin/docmd.js
-  checksum: 10c0/513f6f846133c2e0d5a79430b67b61b30c8ea0cf89bdf171ec96fa4e2427741ce78bcd2e793ad673d50631642c0a3445a05fd0366987b8363442eab52c88ec85
+  checksum: 10c0/24a92212c70b301d7a4bf374f87b72dfe7d7f2f2b82a84ebd40472e882220e2f5ff2d07613d962ff65dea47fb02661927489b773062c97dd917ddc46165f5414
   languageName: node
   linkType: hard
 
-"@docmd/live@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/live@npm:0.7.6"
+"@docmd/live@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/live@npm:0.7.7"
   dependencies:
-    "@docmd/parser": "npm:^0.7.6"
-    "@docmd/plugin-math": "npm:^0.7.6"
-    "@docmd/plugin-mermaid": "npm:^0.7.6"
-    "@docmd/themes": "npm:^0.7.6"
-    "@docmd/ui": "npm:^0.7.6"
+    "@docmd/parser": "npm:^0.7.7"
+    "@docmd/plugin-math": "npm:^0.7.7"
+    "@docmd/plugin-mermaid": "npm:^0.7.7"
+    "@docmd/themes": "npm:^0.7.7"
+    "@docmd/tui": "npm:^0.7.7"
+    "@docmd/ui": "npm:^0.7.7"
     buffer: "npm:^6.0.3"
     esbuild: "npm:^0.28.0"
     katex: "npm:^0.16.45"
     markdown-it-texmath: "npm:^1.0.0"
   bin:
     docmd-live: bin/docmd-live.js
-  checksum: 10c0/4ff081ca8d6e2c6cca8dc1951e0140428771dc87f1a1ab44acdf5e8bd6874a5bdb290d8b58eda13f18abc4b94a345759112485b1f7179f141a9a6e6242e58b41
+  checksum: 10c0/3d25527a84463dd1805011aa23f8e77df3e8df822042f85424b96f8646c574566f48e5ccf92a629cdff09d431ba98c1c5f31048089817eb6a884631c4f13116c
   languageName: node
   linkType: hard
 
-"@docmd/parser@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/parser@npm:0.7.6"
+"@docmd/parser@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/parser@npm:0.7.7"
   dependencies:
+    "@docmd/tui": "npm:^0.7.7"
     embed-lite: "npm:^0.1.4"
     lite-hl: "npm:^0.1.2"
     lite-matter: "npm:^0.1.1"
@@ -76,91 +78,100 @@ __metadata:
     markdown-it-emoji: "npm:^2.0.2"
     markdown-it-footnote: "npm:^3.0.3"
     markdown-it-task-lists: "npm:^2.1.1"
-  checksum: 10c0/64eceff38decbad95e4582678d2ca0c838ddfda744ad9712549d62e84d0d12752b82b2c87441e080579d4e20004e60d3d4d45a1b93ed67c60f8c3963a7d891d2
+  checksum: 10c0/144e1b129becb69adb250e4affaea9e7708e9284a7f0f078ecbe8fd3475b2d1e3f3e4dbce58336e5bf23e75ebe746e808348ae9654b3d7aee82fd7767d210a8a
   languageName: node
   linkType: hard
 
-"@docmd/plugin-analytics@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-analytics@npm:0.7.6"
-  checksum: 10c0/e330b780095496c2bc4af6ad1b085acd6ccd77ea37f02619613cad056af4a25cbaabbb33f83af5d101ea72dde26f1e4cc0583f2d5d1d2fdf1ef42bfc99b6bb45
+"@docmd/plugin-analytics@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-analytics@npm:0.7.7"
+  checksum: 10c0/375424bf7b83009db89989a02b4424a82df01e3359f3f59e1d6be99f9016ed8fa83defbcc3a303d289d0395e0b0d023c497ea97a70057b031236ef05d64f1d94
   languageName: node
   linkType: hard
 
-"@docmd/plugin-installer@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-installer@npm:0.7.6"
+"@docmd/plugin-installer@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-installer@npm:0.7.7"
   dependencies:
-    chalk: "npm:^4.1.2"
-  checksum: 10c0/62ddf58ab49cc1e5bca57e983667db0d293b1d3d3fb06f997e3635a6baf3c0c388cc35093521acdaac9b912db27234f6e7b0964d0d2516d0e7d94628016d69b0
+    "@docmd/api": "npm:^0.7.7"
+  checksum: 10c0/c093d17285bfe43a20ee563512809bc88e59cb8cc5e3e5e5159b65d2b1233696cd9dbe88fd84fca654da3bbf084c2385c73707f388a45ded56881f710ac71ff6
   languageName: node
   linkType: hard
 
-"@docmd/plugin-llms@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-llms@npm:0.7.6"
-  checksum: 10c0/b2810e7295c58bd6f7f195dbdf658040685149503012a74d8fb751d44017067653f7aa33ed52ec1289332b7af16f6181beb619765039bdf639e7b3af953a67c1
+"@docmd/plugin-llms@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-llms@npm:0.7.7"
+  checksum: 10c0/c366f42b45b3a161d4494e43c470970d56f0c67eb5a1f1e6b0efa06d4dbdea490785a1692470fa07b1c91c5c17eec2502efe274c71f68027a27b9f892513afa8
   languageName: node
   linkType: hard
 
-"@docmd/plugin-math@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-math@npm:0.7.6"
+"@docmd/plugin-math@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-math@npm:0.7.7"
   dependencies:
     katex: "npm:^0.16.45"
     markdown-it-texmath: "npm:^1.0.0"
-  checksum: 10c0/3ab2f85a137df6cb06fb9dd84194d34e6e1702ede9b813ffcf7c379e1a85192b77be4c7b1194f1ca0f5d80e0dc63f9917de3f014d2f3d8a595304fb6a290f234
+  checksum: 10c0/4283c56dae049c9fe82893821824ecf8098194235e69e890cb621aaa3a02c41f4e00dce48e2a41361a8024bda068f5dca998125da41818e2b039d3504163e4e0
   languageName: node
   linkType: hard
 
-"@docmd/plugin-mermaid@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-mermaid@npm:0.7.6"
-  checksum: 10c0/96174f5accfea6a3a0ecb4f3f21226970d5864270cc9498317bb347a6b508c50b0225aa18944c44f6bb29a96653d94ea883dcbe2119bd33eb8f4c842dd9f6c1c
+"@docmd/plugin-mermaid@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-mermaid@npm:0.7.7"
+  checksum: 10c0/be9ce8df65f9b39481350a2d6ea2c3cc806ba58175bc3c9f95f95b8954dd38b3f86a2a414aeb53eb10416a7f8e3796995e1c24613b5f90cb04820407e4ca0aa4
   languageName: node
   linkType: hard
 
-"@docmd/plugin-pwa@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-pwa@npm:0.7.6"
-  checksum: 10c0/d0c5b880dcd8b2507c4d32469a092785314330ff0db7cbd035c4435fb49046fbacc6419e131121c073d54f20738a8f3558fa2721d56be59845eb780e01502699
+"@docmd/plugin-pwa@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-pwa@npm:0.7.7"
+  checksum: 10c0/af75e066f42ff00b28ffe4cd4ff1c7f8898063770487e470de67a149366f726daffb7e893bb605df7e42f578a99c713e9dfe57c298abd5e7643505951e5571a7
   languageName: node
   linkType: hard
 
-"@docmd/plugin-search@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-search@npm:0.7.6"
+"@docmd/plugin-search@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-search@npm:0.7.7"
   dependencies:
     minisearch: "npm:^7.2.0"
-  checksum: 10c0/12b3b6e1232ad65882413cd3d7944542d17284327f5860bafceb3fb8cbf5034c84b3db25b3418cf9901e1791232f7d427d7d099257930694a8209ad2ac7320ca
+  checksum: 10c0/3b56b79b5ae4eece6d73fa9d836cde67d522205237fdd1c793031dc29cb875a4dcff12461c22b236ca03b6dc732d0f7ec4f6f782bcdc9ea31f9e892597327225
   languageName: node
   linkType: hard
 
-"@docmd/plugin-seo@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-seo@npm:0.7.6"
-  checksum: 10c0/80d3c52321cdff7972c4a2228d0a992af67d89651ea6de36e0689dc56c9737b8545982113c5197466ab04afb34c210baa9b74314b687928d87c31c9333db95f3
+"@docmd/plugin-seo@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-seo@npm:0.7.7"
+  checksum: 10c0/74b5ee8c4b6dda896f1acb3ecef14f9e1ad795e7e0ed7d9bd395df9015fa7bfa41f6ffa5fa0642c54d6ca0c96bdab409d6ec73f4bc21a3062a9da263d7a7cc65
   languageName: node
   linkType: hard
 
-"@docmd/plugin-sitemap@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/plugin-sitemap@npm:0.7.6"
-  checksum: 10c0/c93ad24e8085a9334a30ab916cce09cfaa93d5d56a66f038814817d687a04530d2ea614241317b945ca0b6968da66cf03072b819425422d8b2b5d563f259ab7b
+"@docmd/plugin-sitemap@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/plugin-sitemap@npm:0.7.7"
+  checksum: 10c0/b71fd65948ddcdc6522c2b0245f2bb9080d2771359b3e2a67a9cb0d04dc955fb79b09b287df1178758f106e72348ee4442b465c9623f57cec52062d5cff6f05d
   languageName: node
   linkType: hard
 
-"@docmd/themes@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/themes@npm:0.7.6"
-  checksum: 10c0/05cf0c768b25bfc3f57869b53ada226f0fbd86bb10bc3a567c5ada86aa3f2828b874892caab25a93123afe21708bc79965915bdd656f1e3009b20fb579f0985f
+"@docmd/themes@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/themes@npm:0.7.7"
+  checksum: 10c0/f835107a93008daf3308e10624084727008a3793ce47348399dfaa62f3dfe89816c05c40efea86ed88b9d89d2b9ef3b10fc45c62b3fa89d1538019f20e41c250
   languageName: node
   linkType: hard
 
-"@docmd/ui@npm:^0.7.6":
-  version: 0.7.6
-  resolution: "@docmd/ui@npm:0.7.6"
-  checksum: 10c0/4363c4ce0ca8f125ec2d415485a24a71ffa2fb2a558168cf1b7edf9c3f712cabb52b12dc436dbeadd9d2f1b91784f721351c440d73d282b62ca254c015ceed47
+"@docmd/tui@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/tui@npm:0.7.7"
+  dependencies:
+    chalk: "npm:^4.1.2"
+  checksum: 10c0/bbd59d6075f1ec5fc387ba6e355d9c083c5f1dfa6bd811aeb9517be1fce185643d5555e34c77ee3942424a621c5060bcdac55e63a939da24bad453580f4c1bc2
+  languageName: node
+  linkType: hard
+
+"@docmd/ui@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@docmd/ui@npm:0.7.7"
+  checksum: 10c0/502a5b531eaf48af08da950f14b5751d1bf5e40c0e8862fe5edc9864d01cee0cc1352061fe01b0b7c492275379a786feea4248a853992d06aa77d6885473478f
   languageName: node
   linkType: hard
 
@@ -671,7 +682,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "star-path-docs@workspace:."
   dependencies:
-    "@docmd/core": "npm:^0.7.6"
+    "@docmd/core": "npm:^0.7.7"
   languageName: unknown
   linkType: soft
 
