@@ -1,1 +1,4 @@
-# Examples
+---
+title: 'Examples'
+description: 'Examples'
+---

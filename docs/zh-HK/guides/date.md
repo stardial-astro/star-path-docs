@@ -3,7 +3,7 @@ title: '日期輸入'
 description: '填寫年月日或快速輸入二分二至日期'
 ---
 
-填寫查詢的年月日，或使用**二分二至**按鈕期快速輸入相應日期。
+填寫觀測者當地的日期，或使用**二分二至**按鈕快速輸入相應日期。
 
 ## 輸入格里曆或儒略曆日期
 
@@ -20,7 +20,7 @@ description: '填寫年月日或快速輸入二分二至日期'
 如存在相應的[農曆][CC-python]日期，將[以提示的形式顯示在結果中][CC].
 
 [CC-python]: https://github.com/ytliu0/ChineseCalendar-python/blob/master/README_simp.md
-[CC]: /guides/results
+[CC]: ./guides/results
 
 :::
 
@@ -28,14 +28,14 @@ description: '填寫年月日或快速輸入二分二至日期'
 
 ## 查詢二分二至日期
 
-當`年`給定且已經選定了地點時，點擊`快捷輸入`面板上其中一個**二分二至**按鈕，可自動填入相應日期。該日期以當地的**標準時間**顯示。
+當`年`已給定且已選定了地點時，點擊`快捷輸入`面板上其中一個**二分二至**按鈕，可自動填入相應日期。該日期以當地的**標準時間**顯示。
 ![二分二至](../../../assets/images/image-26.png){ .img-light } ![二分二至](../../../assets/images/image-27.png){ .img-dark }
 
 ::: callout info
-二分二至日期時始終顯示為格里曆。
+二分二至日期時始終顯示為**格里曆**。
 :::
 
-在南半球，春分點又稱為[三月分點][March equinox]，夏至點又稱為[六月至點][June solstice]，以此類推。
+在南半球，春分點即[三月分點][March equinox]，夏至點即[六月至點][June solstice]，以此類推。
 
 [March equinox]: https://zh.wikipedia.org/wiki/%E5%8C%97%E5%88%86%E9%BB%9E
 [June solstice]: https://zh.wikipedia.org/wiki/%E5%85%AD%E6%9C%88%E8%87%B3%E9%BB%9E

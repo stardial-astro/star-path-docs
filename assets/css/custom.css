@@ -22,6 +22,21 @@ body[data-theme='dark'] {
   --bg-color: #121212;
 }
 
+.docmd-hero {
+  margin: 0;
+  padding: 0;
+}
+
+.docmd-hero.hero-split {
+  gap: 12px;
+}
+
+.hero-side img {
+  max-width: 300px;
+  margin: 0;
+  box-shadow: none;
+}
+
 .hero-banner {
   margin-top: 0;
   margin-bottom: 0;
@@ -63,6 +78,6 @@ h2 {
   margin-right: 4px;
 }
 
-.card {
-  margin-bottom: 0;
+.docmd-container.grids {
+  row-gap: 0;
 }

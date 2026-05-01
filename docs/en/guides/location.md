@@ -22,6 +22,7 @@ If the GPS fails, the IP location will be used as a fallback.
 After setting up an address, the **latitude** and **longitude** values will be stored in the background. If you switch to the `ENTER COORDINATES` tab right after selecting an address, you'll see that the coordinates are filled out already. Note that if you switch back to `SEARCH ADDRESS`, the address and coordinates will be both cleared.
 ![Coordinates displayed](../../../assets/images/image-6.png){ .img-light } ![Coordinates displayed](../../../assets/images/image-7.png){ .img-dark }
 
+::: card "Geocoding Service in Use"
 The default geocoding service is [Nominatim][] using [OpenStreetMap][] data. Within the Great Firewall of China (GFW), [Tianditu][] will be used for reverse geocoding and [QQ LBS service][] will be used for searching as Nominatim is inaccessible. In this case, we recommend using Chinese search terms for better results.
 ![Search with QQ](../../../assets/images/image-4.png){ .img-light } ![Search with QQ](../../../assets/images/image-5.png){ .img-dark }
 
@@ -36,6 +37,8 @@ The geocoding service is automatically determined and cached when the page loads
 [Tianditu]: http://lbs.tianditu.gov.cn/server/guide.html
 [QQ LBS service]: https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview
 
-## Enter Latitude/Longitude Manually
+:::
+
+## Enter Latitude and Longitude Manually
 
 You can always choose to directly enter the `Latitude` and `Longitude` in decimal degrees in the `ENTER COORDINATES` tab.

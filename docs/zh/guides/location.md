@@ -20,7 +20,8 @@ description: '搜索地点或输入经纬度'
 需要注意的是如果此时再次切回`搜索地址`模式，地理位置信息将被清空。
 ![显示经纬度](../../../assets/images/image-6.png){ .img-light } ![显示经纬度](../../../assets/images/image-7.png){ .img-dark }
 
-境外的默认地理位置服务是 [Nominatim][]，使用开放地图数据 [OpenStreetMap][]。 在墙内将使用[天地图][Tianditu]进行定位以及[腾讯位置服务][QQ LBS service]进行搜索。这种情况推荐使用中文搜索以得到相对准确的结果。
+::: card "地理位置服务"
+在境外访问时默认的地理位置服务是 [Nominatim][]，使用开放地图数据 [OpenStreetMap][]。 在墙内访问时将使用[天地图][Tianditu]进行定位以及[腾讯位置服务][QQ LBS service]进行搜索。这种情况下推荐使用中文搜索以得到更准确的结果。
 ![使用腾讯位置服务](../../../assets/images/image-4.png){ .img-light } ![使用腾讯位置服务](../../../assets/images/image-5.png){ .img-dark }
 
 ::: callout warning
@@ -33,6 +34,8 @@ description: '搜索地点或输入经纬度'
 [OpenStreetMap]: https://www.openstreetmap.org/
 [Tianditu]: http://lbs.tianditu.gov.cn/server/guide.html
 [QQ LBS service]: https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview
+
+:::
 
 ## 手动输入经纬度
 

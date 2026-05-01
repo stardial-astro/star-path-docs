@@ -1,6 +1,6 @@
 ---
 title: 'Star Input'
-description: 'Specify a celestial object.'
+description: 'Specify a celestial object by selecting a planet, entering a HIP, or providing a RA/Dec pair.'
 ---
 
 Specify a target using either of the following three methods.
@@ -9,7 +9,7 @@ Specify a target using either of the following three methods.
 
 ![Select Planet](../../../assets/images/image-28.png){ .img-light } ![Select Planet](../../../assets/images/image-29.png){ .img-dark }
 
-## Provide a Hipparcos Catalogue Number (HIP)
+## Specify a Hipparcos Catalogue Number (HIP)
 
 ### Search HIP by Number
 

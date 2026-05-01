@@ -1,6 +1,6 @@
 ---
 title: '天体输入'
-description: '指定天体'
+description: '通过选择行星、输入依巴谷星表编号或使用天球坐标来指定天体'
 ---
 
 选用以下方法指定天体。
@@ -32,7 +32,7 @@ description: '指定天体'
 
 ### 通过拉丁星名检索编号
 
-输入固有名称或拜耳命名法星名（不区分大小写），然后然后从下拉列表中选择一个条目以获取编号。
+输入**固有名称**或**拜耳命名法星名**（不区分大小写），然后从下拉列表中选择一个条目以获取编号。
 ![通过星名检索 HIP](../../../assets/images/image-52.png){ .img-light } ![通过星名检索 HIP](../../../assets/images/image-53.png){ .img-dark }
 
 ::: callout info "希腊字母与拉丁缩写对照表"
@@ -48,7 +48,7 @@ description: '指定天体'
 
 ### 通过中文星名检索编号
 
-输入**简体中文**、**繁体中文**或**拼音**，然后然后从下拉列表中选择一个条目以获取编号。
+输入**简体中文**、**繁体中文**或**拼音**，然后从下拉列表中选择一个条目以获取编号。
 ![通过中文星名检索 HIP](../../../assets/images/image-54.png){ .img-light } ![通过中文星名检索 HIP](../../../assets/images/image-55.png){ .img-dark }
 
 ::: callout tip "拼音输入"
@@ -57,8 +57,8 @@ description: '指定天体'
 拼写时 `ü` 可用 `v`、`yu` 或 `u` 表示。
 :::
 
-::: callout info "计入自行"
-使用依巴谷星表指定天体时，星轨计算中考虑[自行][Proper motion]。
+::: callout info "已含自行"
+使用依巴谷星表指定天体时，星轨计算中考虑了[自行][Proper motion]。
 
 [Proper motion]: https://zh.wikipedia.org/wiki/%E8%87%AA%E8%A1%8C
 

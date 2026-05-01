@@ -4,7 +4,7 @@
 export default defineConfig({
   /* --- Core Metadata --- */
   title: 'Star Path Viewer Documentation',
-  url: 'https://docs.docmd.io', // e.g. https://mysite.com (Critical for SEO/Sitemap)
+  url: 'https://star-path-docs.pages.dev/',
 
   /* --- Branding --- */
   logo: {

@@ -17,9 +17,10 @@ description: '搜索地點或輸入經緯度'
 ![搜索地址](../../../assets/images/image-2.png){ .img-light } ![搜索地址](../../../assets/images/image-3.png){ .img-dark }
 
 確定地址後，後台將同時記錄得到的經緯度數據。此時如果切換到`輸入座標`模式，會發現經緯度已經填好了。
-需要注意的是如果此時再次切回`搜索地址`模式，地理位置信息將被清空。_使用騰訊位置服務時暫不支持繁體中文顯示。_
+需要注意的是如果此時再次切回`搜索地址`模式，地理位置信息將被清空。
 ![顯示經緯度](../../../assets/images/image-14.png){ .img-light } ![顯示經緯度](../../../assets/images/image-15.png){ .img-dark }
 
+::: card "地理位置服務"
 境外的默認地理位置服務是 [Nominatim][]，使用開放地圖數據 [OpenStreetMap][]。 在牆內將使用[天地圖][Tianditu]進行定位以及[騰訊位置服務][QQ LBS service]進行搜索。這種情況推薦使用中文搜索以得到相對準確的結果。
 ![使用騰訊位置服務](../../../assets/images/image-12.png){ .img-light } ![使用騰訊位置服務](../../../assets/images/image-13.png){ .img-dark }
 
@@ -33,6 +34,8 @@ description: '搜索地點或輸入經緯度'
 [OpenStreetMap]: https://www.openstreetmap.org/
 [Tianditu]: http://lbs.tianditu.gov.cn/server/guide.html
 [QQ LBS service]: https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview
+
+:::
 
 ## 手動輸入經緯度
 
