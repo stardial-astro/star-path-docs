@@ -64,7 +64,7 @@ export default defineConfig({
     },
     footer: {
       style: 'minimal',
-      content: '© ' + new Date().getFullYear() + ' StarPathViewer.',
+      content: '© ' + new Date().getFullYear() + ' Stardial.',
       branding: true, // Config for "Built with docmd" badge
     },
   },

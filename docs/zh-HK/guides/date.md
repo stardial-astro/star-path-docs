@@ -20,7 +20,7 @@ description: '填寫年月日或快速輸入二分二至日期'
 如存在相應的[農曆][CC-python]日期，將[以提示的形式顯示在結果中][CC].
 
 [CC-python]: https://github.com/ytliu0/ChineseCalendar-python/blob/master/README_simp.md
-[CC]: ./guides/results
+[CC]: ./results
 
 :::
 

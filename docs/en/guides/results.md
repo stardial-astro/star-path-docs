@@ -7,6 +7,10 @@ description: 'Information, diagram, and data table.'
 
 After sending the request by clicking the `DRAW STAR PATH` button, our server will return a diagram and relevant data. The information about the querying location, date, and target will be displayed above the diagram.
 
+::: callout info "About the Speed"
+As this is a non-profit academic application, our server is hosted under a free plan, so connection and processing times may occasionally be longer than usual. However, results are typically available within a few seconds at most.
+:::
+
 The diagram is in [horizontal coordinate system][]. The [north and south celestial poles][] (labeled `NCP` and `SCP`) and the [zenith][] (labeled `Z`) are shown if they are within the coordinate range.
 ![Diagram](../../../assets/images/image-76.png){ .img-light } ![Diagram](../../../assets/images/image-77.png){ .img-dark }
 
@@ -32,6 +36,13 @@ The path segments are depicted in different styles according to the **twilight s
 ::: callout tip "Point Details"
 Hovering on the **ⓘ** icon (or tapping on mobile devices) shows an explanation of this point label.
 ![Point explanation](../../../assets/images/image-82.png){ .img-light } ![Point explanation](../../../assets/images/image-83.png){ .img-dark }
+:::
+
+::: callout info "Atmospheric Refraction"
+The [atmospheric refraction][] has been taken into account in the position calculation.
+
+[atmospheric refraction]: https://en.wikipedia.org/wiki/Atmospheric_refraction
+
 :::
 
 ## Download

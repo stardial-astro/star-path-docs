@@ -7,11 +7,15 @@ description: '顯示相關信息、星軌圖和數據表格'
 
 點擊`繪製星軌`按鈕發送請求後，服務器會以圖片和表格形式返回結果。查詢的地點、日期、天體等信息將顯示在圖像上方。
 
+::: callout info "關於速度"
+作為一款非營利的學術用途的應用，我們的服務器搭載使用的是免費計劃，因此連接和運算時間偶爾會比往常長一些。但通常最多等待幾秒鐘即可獲得結果。
+:::
+
 圖像採用[地平座標系][horizontal coordinate system]。[南北天極][north and south celestial poles]、[天頂][zenith]如果在座標範圍內，將分別標記為 `NCP`、`SCP` 和 `Z`。
 ![圖像](../../../assets/images/image-92.png){ .img-light } ![圖像](../../../assets/images/image-93.png){ .img-dark }
 
 ::: callout tip "農曆日期"
-如果該查詢日期可被轉換為農曆日期，將顯示為浮動提示。鼠標懸浮在顯示的日期上（在移動端則輕觸）即可看到提示。
+如果該查詢日期可被轉換為農曆日期，將顯示為浮動提示。光標懸停在顯示的日期上（在移動端則輕觸）即可看到提示。
 ![Date in Chinese calendar](../../../assets/images/image-96.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/image-97.png){ .img-dark }
 :::
 
@@ -30,8 +34,15 @@ description: '顯示相關信息、星軌圖和數據表格'
 ![表格](../../../assets/images/image-94.png){ .img-light } ![表格](../../../assets/images/image-95.png){ .img-dark }
 
 ::: callout tip "標記點説明"
-鼠標懸浮在 **ⓘ** 符號上（在移動端則輕觸）可打開相應標記點的解釋。
+光標懸停在 **ⓘ** 符號上（在移動端則輕觸）可打開相應標記點的解釋。
 ![標記點説明](../../../assets/images/image-98.png){ .img-light } ![標記點説明](../../../assets/images/image-99.png){ .img-dark }
+:::
+
+::: callout info "大氣折射"
+計算天體位置時考慮了[大氣折射][atmospheric refraction]效應。
+
+[atmospheric refraction]: https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%B0%A3%E6%8A%98%E5%B0%84
+
 :::
 
 ## 下載

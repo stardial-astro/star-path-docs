@@ -20,7 +20,7 @@ Dates in both calendars will be displayed after generating the diagram. Date con
 The date in the [Chinese calendar][CC-python] will be [displayed as a tooltip][CC tooltip] if available.
 
 [CC-python]: https://github.com/ytliu0/ChineseCalendar-python
-[CC tooltip]: ./guides/results
+[CC tooltip]: ./results
 
 :::
 
