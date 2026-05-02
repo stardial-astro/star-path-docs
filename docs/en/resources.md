@@ -28,6 +28,7 @@ description: 'Resources'
 ## Bayer Designation and Proper Name {#bayer-designation-and-proper-name}
 
 **Data source:** [Tables from The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
+Tables: `ident4`, `ident6`
 
 ## Chinese Star Names {#chinese-star-names}
 
@@ -86,3 +87,4 @@ This package is used to generate pinyin names from the Traditional Chinese star 
 ## Chinese Calendar {#chinese-calendar}
 
 **Python package:** [Conversion Between Western and Chinese Calendar](https://github.com/ytliu0/ChineseCalendar-python)
+**Available date range:** 722 BCE to 2200 CE

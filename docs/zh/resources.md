@@ -28,6 +28,7 @@ description: '引用资源'
 ## 拜耳命名法星名和固有名称 {#bayer-designation-and-proper-name}
 
 **数据来源：** [Tables from The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
+表格：`ident4`、`ident6`
 
 ## 中文星名 {#chinese-star-names}
 
@@ -86,3 +87,4 @@ description: '引用资源'
 ## 农历 {#chinese-calendar}
 
 **Python 包：** [中历-公历转换](https://github.com/ytliu0/ChineseCalendar-python)
+**支持的日期范围：** 公元前 722 年至公元 2200 年
