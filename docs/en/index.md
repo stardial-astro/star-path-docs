@@ -18,7 +18,7 @@ An astronomical application for tracking the apparent motion of a given celestia
 <img src="../../assets/images/spv-preview-light.png" alt="Preview" width="280" class="img-light align-center">
 :::
 
-## :rocket: Quick Start
+## :rocket: Quick Start {#quick-start}
 
 [Star Path Viewer][] computes this target's positions on the celestial sphere based on the querying information. It generates a diagram with a curved path representing the [apparent motion][] projected onto the observer's local [horizontal coordinate system][]. A table of the rising/setting/transit/twilight times and star positions will also be appended.
 
@@ -34,10 +34,10 @@ An astronomical application for tracking the apparent motion of a given celestia
 **→** [By querying a star's that shows up tonight, view the **sunset and twilight times** from the results to determine the ideal time to observe the aurora borealis or meteor showers.][Anno]
 
 [Search Address]: ./guides/location/#search-address
-[Quick Entry]: ./guides/date/#look-up-an-equinoxsolstice
-[Enter Date]: ./guides/date/#enter-a-date-in-the-gregorian-or-julian-calendar
-[HIP]: ./guides/star#specify-a-hipparcos-catalogue-number-hip
-[Anno]: ./guides/results/#legend-and-data-table
+[Quick Entry]: ./guides/date/#look-up-season
+[Enter Date]: ./guides/date/#enter-date
+[HIP]: ./guides/star/#search-hip
+[Anno]: ./guides/results/#legend-and-table
 
 :::
 
@@ -49,7 +49,7 @@ An astronomical application for tracking the apparent motion of a given celestia
 [Star Input]: ./guides/star
 [Draw]: ./guides/results
 
-## :sparkles: Highlights
+## :sparkles: Highlights {#highlights}
 
 ::: grids
 ::: grid
@@ -58,8 +58,8 @@ Covers a wide range of querying dates from **3001 BCE** to **3000 CE**.
 :::
 :::
 ::: grid
-::: card "Twilight Stages" icon:sunrise
-Marks the times and star positions of the **rising**, **setting**, **transit**, and **twilights**.
+::: card "Twilight Transitions" icon:sunrise
+Marks a star's **rising/setting/transit** times and its positions during **twilights**.
 :::
 :::
 ::: grid
@@ -69,7 +69,7 @@ Supports **Gregorian** and **Julian** calendars. Displays available **Chinese ca
 :::
 ::: grid
 ::: card "Equinoxes and Solstices" icon:zodiac-aries
-Easily queries **equinox** and **solstice** dates by a given year and location.
+Easily queries **equinoxes** and **solstices** by giving a year and a location.
 :::
 :::
 :::

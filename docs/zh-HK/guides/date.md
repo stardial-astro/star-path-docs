@@ -5,7 +5,7 @@ description: '填寫年月日或快速輸入二分二至日期'
 
 填寫觀測者當地的日期，或使用**二分二至**按鈕快速輸入相應日期。
 
-## 輸入格里曆或儒略曆日期
+## 輸入格里曆或儒略曆日期 {#enter-date}
 
 可查詢的日期範圍為：**公元前3001年2月23日（儒略曆）**至**公元3000年5月6日（格里曆）**。
 ![輸入日期](../../../assets/images/image-24.png){ .img-light } ![輸入日期](../../../assets/images/image-25.png){ .img-dark }
@@ -20,13 +20,13 @@ description: '填寫年月日或快速輸入二分二至日期'
 如存在相應的[農曆][CC-python]日期，將[以提示的形式顯示在結果中][CC].
 
 [CC-python]: https://github.com/ytliu0/ChineseCalendar-python/blob/master/README_simp.md
-[CC]: ./results
+[CC]: ./results/#cc
 
 :::
 
 [astronomical year numbering]: https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%96%87%E8%A8%88%E5%B9%B4
 
-## 查詢二分二至日期
+## 查詢二分二至日期 {#look-up-season}
 
 當`年`已給定且已選定了地點時，點擊`快捷輸入`面板上其中一個**二分二至**按鈕，可自動填入相應日期。該日期以當地的**標準時間**顯示。
 ![二分二至](../../../assets/images/image-26.png){ .img-light } ![二分二至](../../../assets/images/image-27.png){ .img-dark }

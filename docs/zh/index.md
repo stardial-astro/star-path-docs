@@ -18,7 +18,7 @@ titleAppend: false
 <img src="../../assets/images/spv-preview-light.png" alt="预览" width="280" class="img-light align-center">
 :::
 
-## :rocket: 开始
+## :rocket: 开始 {#quick-start}
 
 [Star Path Viewer][] 根据提供的信息计算选定天体于一天之内在天球上的[视运动][apparent motion]轨迹。生成的结果包含一个展示轨迹的[地平坐标系][horizontal coordinate system]投影图以及一个包含升落、中天、晨昏蒙影数据的表格。
 
@@ -33,11 +33,11 @@ titleAppend: false
 **→** [根据星名查找某颗星的**依巴谷星表编号**，或根据编号查询它的名称][HIP]
 **→** [通过查询当晚将出现的某颗星，得知当天的**日落和黄昏时刻**，从而判断观看极光或流星雨的理想时间。][Anno]
 
-[Search Address]: ./guides/location/#搜索地址
-[Quick Entry]: ./guides/date/#查询二分二至日期
-[Enter Date]: ./guides/date/#输入格里历或儒略历日期
-[HIP]: ./guides/star/#指定依巴谷星表编号-hip
-[Anno]: ./guides/results/#图例和数据表格
+[Search Address]: ./guides/location/#search-address
+[Quick Entry]: ./guides/date/#look-up-season
+[Enter Date]: ./guides/date/#enter-date
+[HIP]: ./guides/star/#search-hip
+[Anno]: ./guides/results/#legend-and-table
 
 :::
 
@@ -49,7 +49,7 @@ titleAppend: false
 [Star Input]: ./guides/star
 [Draw]: ./guides/results
 
-## :sparkles: 功能亮点
+## :sparkles: 功能亮点 {#highlights}
 
 ::: grids
 ::: grid
@@ -59,7 +59,7 @@ titleAppend: false
 :::
 ::: grid
 ::: card "晨昏蒙影" icon:sunrise
-标记**晨昏蒙影**、**升落点**和**过中天**时刻及天体位置。
+标记天体**升落**和**过中天**的时刻及其在不同**晨昏蒙影**阶段的位置。
 :::
 :::
 ::: grid

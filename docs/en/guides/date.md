@@ -5,7 +5,7 @@ description: 'Input the year, month, and day of the month, or query an equinox/s
 
 Specify the observer's **local date** by filling out each field or querying an **equinox/solstice** date as a quick entry.
 
-## Enter a Date in the Gregorian or Julian Calendar
+## Enter a Date in the Gregorian or Julian Calendar {#enter-date}
 
 The valid date range is from **February 23, 3001 BCE (Julian)** to **May 6, 3000 CE (Gregorian)**.
 ![Enter date](../../../assets/images/image-16.png){ .img-light } ![Enter date](../../../assets/images/image-17.png){ .img-dark }
@@ -20,13 +20,13 @@ Dates in both calendars will be displayed after generating the diagram. Date con
 The date in the [Chinese calendar][CC-python] will be [displayed as a tooltip][CC tooltip] if available.
 
 [CC-python]: https://github.com/ytliu0/ChineseCalendar-python
-[CC tooltip]: ./results
+[CC tooltip]: ./results/#cc
 
 :::
 
 [astronomical year numbering]: https://en.wikipedia.org/wiki/Astronomical_year_numbering
 
-## Look Up an Equinox/Solstice
+## Look Up an Equinox/Solstice {#look-up-season}
 
 When the `Year` is given and a location is specified, click one of the four **equinox/solstice** buttons on the `Quick Entry` panel to auto-fill the date in the **Standard Time** of this location.
 ![Equinoxes/Solstices](../../../assets/images/image-18.png){ .img-light } ![Equinoxes/Solstices](../../../assets/images/image-19.png){ .img-dark }

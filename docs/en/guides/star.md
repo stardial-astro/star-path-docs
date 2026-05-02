@@ -5,13 +5,13 @@ description: 'Specify a celestial object by selecting a planet, entering a HIP, 
 
 Specify a target using either of the following three methods.
 
-## Select a Planet
+## Select a Planet {#select-planet}
 
 ![Select Planet](../../../assets/images/image-28.png){ .img-light } ![Select Planet](../../../assets/images/image-29.png){ .img-dark }
 
-## Specify a Hipparcos Catalogue Number (HIP)
+## Specify a Hipparcos Catalogue Number (HIP) {#search-hip}
 
-### Search HIP by Number
+### Search HIP by Number {#search-hip-by-number}
 
 Enter a number then select one suggestion from the drop-down list.
 ![HIP by Number](../../../assets/images/image-30.png){ .img-light } ![HIP by Number](../../../assets/images/image-31.png){ .img-dark }
@@ -30,7 +30,7 @@ If a HIP is invalid even within the range, a notification will appear after subm
 
 :::
 
-### Search HIP by Proper Name or Bayer Designation
+### Search HIP by Proper Name or Bayer Designation {#search-hip-by-name}
 
 Enter a **proper name** or **Bayer designation** (case-insensitive), then select one suggestion from the drop-down list to get its HIP.
 ![HIP by Proper Name or Bayer Designation](../../../assets/images/image-36.png){ .img-light } ![HIP by Proper Name or Bayer Designation](../../../assets/images/image-37.png){ .img-dark }
@@ -46,7 +46,7 @@ Enter a **proper name** or **Bayer designation** (case-insensitive), then select
 
 :::
 
-### Search HIP by Chinese Name in Traditional/Simplified Chinese or Pinyin
+### Search HIP by Chinese Name {#search-hip-by-chinese-name}
 
 Enter a name in **Traditional/Simplified Chinese** or **Pinyin**, then select one suggestion from the drop-down list to get its HIP.
 ![HIP by Pinyin](../../../assets/images/image-38.png){ .img-light } ![HIP by Pinyin](../../../assets/images/image-39.png){ .img-dark }
@@ -64,9 +64,11 @@ You can use either `v`, `yu`, or `u` for `ü`.
 
 :::
 
-## Specify RA/Dec as the Target
+## Specify RA/Dec {#enter-radec}
 
-Enter the [International Celestial Reference System (ICRS)][ICRS] coordinates [Right Ascension (RA)][RA] in **HMS** (Hour, Minute, and Second) format and [Declination (Dec)][Dec] in **DMS** (Degree, Minute, and Second) format:
+You can track a fixed point in the sky by giving the [International Celestial Reference System (ICRS)][ICRS] coordinates [right ascension (RA)][RA] and [declination (Dec)][Dec].
+
+Enter **RA** in **HMS** (Hour, Minute, and Second) format and **Dec** in **DMS** (Degree, Minute, and Second) format:
 ![Radec in HMS and DMS](../../../assets/images/image-40.png){ .img-light } ![Radec in HMS and DMS](../../../assets/images/image-41.png){ .img-dark }
 or both in **decimal degrees**:
 ![Radec in decimal degrees](../../../assets/images/image-42.png){ .img-light } ![Radec in decimal degrees](../../../assets/images/image-43.png){ .img-dark }

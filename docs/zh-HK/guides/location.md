@@ -7,12 +7,12 @@ description: '搜索地點或輸入經緯度'
 
 [horizontal coordinate system]: https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
 
-## 定位當前位置
+## 定位當前位置 {#gps}
 
 在`搜索地址`模式，點擊按鈕進行定位。這一步會自動設定**經緯度**。如果定位失敗，將自動使用 IP 地址獲得粗略的經緯度。
 ![定位當前位置](../../../assets/images/image-10.png){ .img-light } ![定位當前位置](../../../assets/images/image-11.png){ .img-dark }
 
-## 搜索地址
+## 搜索地址 {#search-address}
 
 ![搜索地址](../../../assets/images/image-2.png){ .img-light } ![搜索地址](../../../assets/images/image-3.png){ .img-dark }
 
@@ -37,6 +37,6 @@ description: '搜索地點或輸入經緯度'
 
 :::
 
-## 手動輸入經緯度
+## 手動輸入經緯度 {#enter-lat-lng}
 
 您可以隨時選擇`輸入座標`模式，通過手動輸入十進制小數的經緯度來指定地點。

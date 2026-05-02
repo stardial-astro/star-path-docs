@@ -5,13 +5,13 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 
 選用以下方法指定天體。
 
-## 選擇行星
+## 選擇行星 {#select-planet}
 
 ![選擇行星](../../../assets/images/image-60.png){ .img-light } ![選擇行星](../../../assets/images/image-61.png){ .img-dark }
 
-## 指定依巴谷星表編號 (HIP)
+## 指定依巴谷星表編號 (HIP) {#search-hip}
 
-### 檢索編號
+### 檢索編號 {#search-hip-by-number}
 
 輸入數字以檢索編號，然後從下拉列表中選擇一個條目。
 ![檢索 HIP](../../../assets/images/image-62.png){ .img-light } ![檢索 HIP](../../../assets/images/image-63.png){ .img-dark }
@@ -30,7 +30,7 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 
 :::
 
-### 通過拉丁星名檢索編號
+### 通過拉丁星名檢索編號 {#search-hip-by-name}
 
 輸入**固有名稱**或**拜耳命名法星名**（不區分大小寫），然後從下拉列表中選擇一個條目以獲取編號。
 ![通過星名檢索 HIP](../../../assets/images/image-68.png){ .img-light } ![通過星名檢索 HIP](../../../assets/images/image-69.png){ .img-dark }
@@ -46,7 +46,7 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 
 :::
 
-### 通過中文星名檢索編號
+### 通過中文星名檢索編號 {#search-hip-by-chinese-name}
 
 輸入**簡體中文**、**繁體中文**或**拼音**，然後從下拉列表中選擇一個條目以獲取編號。
 ![通過中文星名檢索 HIP](../../../assets/images/image-70.png){ .img-light } ![通過中文星名檢索 HIP](../../../assets/images/image-71.png){ .img-dark }
@@ -64,11 +64,13 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 
 :::
 
-## 指定天球座標作為觀測目標
+## 指定天球座標 {#enter-radec}
 
-輸入[國際天球參考系（ICRS）][ICRS]的[赤經][RA]和[赤緯][Dec]座標來制定觀測目標。輸入格式可選擇 **“時·分·秒”（HMS）**、**“度·分·秒”（DMS）** ：
+可通過輸入[國際天球參考系（ICRS）][ICRS]的[赤經][RA]和[赤緯][Dec]座標來跟蹤天球上一個固定的點。
+
+輸入格式可選擇**赤經**用**時·分·秒（HMS）**、**赤緯**用**度·分·秒（DMS）**：
 ![HMS 和 DMS 格式赤經赤緯](../../../assets/images/image-72.png){ .img-light } ![HMS 和 DMS 格式赤經赤緯](../../../assets/images/image-73.png){ .img-dark }
-或者**十進制小數**：
+或都使用**十進制小數**：
 ![十進制小數格式赤經赤緯](../../../assets/images/image-74.png){ .img-light } ![十進制小數格式赤經赤緯](../../../assets/images/image-75.png){ .img-dark }
 
 ::: callout info "無自行"

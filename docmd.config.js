@@ -125,7 +125,7 @@ export default defineConfig({
       {
         id: '1.3',
         dir: 'docs', // Source directory for latest version
-        label: '1.3.2',
+        label: '1.3',
       },
     ],
   },

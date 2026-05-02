@@ -9,13 +9,13 @@ There are three ways to specify the location as follows.
 
 [horizontal coordinate system]: https://en.wikipedia.org/wiki/Horizontal_coordinate_system
 
-## Find My Location
+## Find My Location {#gps}
 
 In the `SEARCH ADDRESS` tab, click the GPS icon in the search bar to find the address of the current location. This step will also assign the **coordinates** of this location.
 If the GPS fails, the IP location will be used as a fallback.
 ![Find My Location](../../../assets/images/image-1.png){ .img-light } ![Find My Location](../../../assets/images/image.png){ .img-dark }
 
-## Search Address
+## Search Address {#search-address}
 
 ![Search address](../../../assets/images/image-2.png){ .img-light } ![Search address](../../../assets/images/image-3.png){ .img-dark }
 
@@ -39,6 +39,6 @@ The geocoding service is automatically determined and cached when the page loads
 
 :::
 
-## Enter Latitude and Longitude Manually
+## Enter Latitude and Longitude Manually {#enter-lat-lng}
 
 You can always choose to directly enter the `Latitude` and `Longitude` in decimal degrees in the `ENTER COORDINATES` tab.

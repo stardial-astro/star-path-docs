@@ -31,7 +31,7 @@
         "icon": "sparkle"
       },
       {
-        "title": "结果显示",
+        "title": "计算结果",
         "path": "/guides/results",
         "icon": "orbit"
       }
