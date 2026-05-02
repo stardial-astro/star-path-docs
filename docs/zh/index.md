@@ -8,7 +8,7 @@ titleAppend: false
 
 # Star Path Viewer
 
-追踪天体视运动轨迹的天文应用。
+追踪天体视运动轨迹的在线天文工具
 
 ::: button "使用指南" ./guides/location.md icon:telescope
 ::: button "GitHub" external:https://github.com/stardial-astro/star-path-viewer color:#333 icon:github

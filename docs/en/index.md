@@ -8,7 +8,7 @@ titleAppend: false
 
 # Star Path Viewer
 
-An astronomical application for tracking the apparent motion of a given celestial object.
+An online astronomical application for tracking a star on a given date.
 
 ::: button "Guides" ./guides/location.md icon:telescope
 ::: button "GitHub" external:https://github.com/stardial-astro/star-path-viewer color:#333 icon:github
