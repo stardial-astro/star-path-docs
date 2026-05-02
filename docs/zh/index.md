@@ -6,7 +6,7 @@ titleAppend: false
 
 ::: hero layout:split glow:false
 
-# 欢迎使用 Star&nbsp;Path&nbsp;Viewer
+# 欢迎使用 Star&nbsp;Path Viewer
 
 追踪天体视运动轨迹的天文应用。
 

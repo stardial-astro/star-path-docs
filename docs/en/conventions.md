@@ -14,7 +14,7 @@ When determining the **rising** and **setting** of an object, the effect of [atm
 
 Both the atmospheric refraction and the radius of the sun are taken into account in defining sunrise and sunset. [Skyfield][] uses the [official definition of sunrise and sunset][] from the **United States Naval Observatory (USNO)**:
 
-> For computational purposes, **sunrise** or **sunset** is defined to occur when … the center of the Sun is geometrically **50 arcminutes** below a horizontal plane … The 50-arcminute geometric depression of the Sun's center used for the computations is obtained by adding the **average apparent radius of the Sun** (16 arcminutes) to the **average amount of atmospheric refraction at the horizon** (34 arcminutes).
+> *For computational purposes, **sunrise** or **sunset** is defined to occur when … the center of the Sun is geometrically **50 arcminutes** below a horizontal plane … The 50-arcminute geometric depression of the Sun's center used for the computations is obtained by adding the **average apparent radius of the Sun** (16 arcminutes) to the **average amount of atmospheric refraction at the horizon** (34 arcminutes).*
 
 [Skyfield]: https://rhodesmill.org/skyfield/
 [official definition of sunrise and sunset]: https://aa.usno.navy.mil/faq/RST_defs
@@ -37,10 +37,6 @@ According to [Tousey and Koomen (1953)][Tousey1953], the visibility of stars and
 
 [Tousey1953]: https://opg.optica.org/josa/viewmedia.cfm?uri=josa-43-3-177&seq=0&html=true
 
-## Symbols of Arcminute and Arcsecond {#arcminute-and-arcsecond}
-
-**Arcminutes** and **arcseconds** are marked with the ASCII **straight single quote `'`** and **straight double quote `"`** to adapt to various systems and media.
-
 ## Time Zone {#time-zone}
 
 The time zone ID dataset invoked in this project is the ["**Same since 1970**" from Timezone Boundary Builder][Same since 1970]. According to the [IANA time zone database][IANA], this database attempts to record historical time zones and all civil changes since 1970 (the Unix time epoch).
@@ -49,3 +45,24 @@ The time zone IDs and standard offsets in this project represent the **current t
 
 [Same since 1970]: https://github.com/evansiroky/timezone-boundary-builder#same-since-1970
 [IANA]: https://www.iana.org/time-zones
+
+## Symbols of Arcminute and Arcsecond {#arcminute-and-arcsecond}
+
+**Arcminutes** and **arcseconds** are marked with the ASCII **straight single quote `'`** and **straight double quote `"`** to adapt to various systems and media.
+
+## Date Format {#date-format}
+
+### ISO 8601
+
+[ISO 8601: Date and time format](https://www.iso.org/iso-8601-date-and-time-format.html)
+
+```text
+# ISO 8601-2:2019
+Date and time: YYYY-MM-DDThh:mm:ss[.sss][Z|±hh:mm]
+Time range: YYYY-MM-DD/YYYY-MM-DD
+```
+
+### Common Era {#common-era}
+
+[Year Dating Conventions from NASA](https://eclipse.gsfc.nasa.gov/SEhelp/dates.html) explaining using `BCE/CE` instead of `BC/AD`:
+> *In recent years, some historical scholars have advocated the use of the religiously neutral abbreviations BCE (for "Before Common Era") to substitute for "BC," and "CE" (for "Common Era") to replace "AD." These secular terms are both used as suffixes making them better suited to computer generated tables.*

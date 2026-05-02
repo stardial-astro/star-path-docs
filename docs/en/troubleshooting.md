@@ -3,9 +3,17 @@ title: 'Troubleshooting'
 description: 'Troubleshooting'
 ---
 
+## FAQ {#faq}
+
 ### Draw button is greyed out {#draw-btn-disabled}
 
 Typically, if there are invalid input values or any errors, the button will be disabled. First, check if there are any error messages on the page and correct the values. If no errors showing, try clearing any input value, typing in any field, or toggling any input types. In this way, the input validation will be triggered and enable the button if values are valid. If none works, refreshing the page to reset all states can solve the issue.
+
+### Nothing happens after clicking draw button {#draw-btn-not-working}
+
+If the querying parameters (latitude/longitude, date, and star information) are the same as the last time, it displays the cached result unless the data stales. In this case, if the results from the last query is not cleared before the current request (e.g., by refreshing the page), the content on the page stays unchanged.
+
+In addition, we also cache data for the equinox/solstice queries.
 
 ### Server is inaccessible {#server-inaccessible}
 

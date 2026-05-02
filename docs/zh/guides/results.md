@@ -19,7 +19,7 @@ description: '显示相关信息、星轨图和数据表格'
 ![Star Never Rises](../../../assets/images/image-102.png){ .img-light } ![Star Never Rises](../../../assets/images/image-103.png){ .img-dark }
 :::
 
-### 农历日期 {#cc}
+### 农历日期 {#chinese-calendar-tooltip}
 
 如果查询的日期可被转换为农历，该农历日期将显示为浮动提示。光标悬停在格里历或儒略历日期上（在移动端则轻触）即可看到提示。
 ![Date in Chinese calendar](../../../assets/images/image-88.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/image-89.png){ .img-dark }

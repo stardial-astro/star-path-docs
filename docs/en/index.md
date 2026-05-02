@@ -6,7 +6,7 @@ titleAppend: false
 
 ::: hero layout:split glow:false
 
-# Welcome to Star&nbsp;Path&nbsp;Viewer
+# Welcome to Star&nbsp;Path Viewer
 
 An astronomical application for tracking the apparent motion of a given celestial object.
 

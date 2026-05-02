@@ -19,7 +19,7 @@ description: '顯示相關信息、星軌圖和數據表格'
 ![Star Never Rises](../../../assets/images/image-104.png){ .img-light } ![Star Never Rises](../../../assets/images/image-105.png){ .img-dark }
 :::
 
-### 農曆日期 {#cc}
+### 農曆日期 {#chinese-calendar-tooltip}
 
 如果查詢的日期可被轉換為農曆，該農曆日期將顯示為浮動提示。光標懸停在格里曆或儒略曆日期上（在移動端則輕觸）即可看到提示。
 ![Date in Chinese calendar](../../../assets/images/image-96.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/image-97.png){ .img-dark }

@@ -14,7 +14,7 @@ description: '慣例約定'
 
 定義日出和日落時，不僅包含大氣折射，也計入太陽半徑。[Skyfield][] 遵循美國海軍天文台給出的[日出日落定義][official definition of sunrise and sunset]：
 
-> 出於計算目的，日出日落被定義為……日面中心位於地平線下方 **50 角分**處……這 50 角分是通過將**太陽平均視半徑**（16 角分）與**地平線處平均大氣折射角**（34 角分）相加得到的。
+> *出於計算目的，日出日落被定義為……日面中心位於地平線下方 **50 角分**處……這 50 角分是通過將**太陽平均視半徑**（16 角分）與**地平線處平均大氣折射角**（34 角分）相加得到的。*
 
 [Skyfield]: https://rhodesmill.org/skyfield/
 [official definition of sunrise and sunset]: https://aa.usno.navy.mil/faq/RST_defs
@@ -23,23 +23,19 @@ description: '慣例約定'
 
 ::: card "美國海軍天文台給出的晨昏蒙影定義"
 **日落：** 0°
-**民用晨昏蒙影：**地平線下 0° 至 6°
-**航海晨昏蒙影：**地平線下 6° 至 12°
-**天文晨昏蒙影t：**地平線下 12° 至 18°
-**入夜：**地平線下 18°
+**民用晨昏蒙影：** 地平線下 0° 至 6°
+**航海晨昏蒙影：** 地平線下 6° 至 12°
+**天文晨昏蒙影：** 地平線下 12° 至 18°
+**入夜：** 地平線下 18°
 :::
 
 根據 [Tousey 和 Koomen（1953）][Tousey1953]，各晨昏蒙影階段天體可見度如下：
 
-- **日出/日落：**此時只有金星、木星等非常亮的星才能肉眼可見。
-- **民用曙光始/民用暮光終：**此時在大部分天區亮於 1 等的星能夠肉眼可見。
-- **航海曙光始/航海暮光終：**此時在大部分天區亮於 4 等的星能夠肉眼可見。
+- **日出/日落：** 此時只有金星、木星等非常亮的星才能肉眼可見。
+- **民用曙光始/民用暮光終：** 此時在大部分天區亮於 1 等的星能夠肉眼可見。
+- **航海曙光始/航海暮光終：** 此時在大部分天區亮於 4 等的星能夠肉眼可見。
 
 [Tousey1953]: https://opg.optica.org/josa/viewmedia.cfm?uri=josa-43-3-177&seq=0&html=true
-
-## 角分和角秒符號 {#arcminute-and-arcsecond}
-
-角分和角秒分別使用 ASCII **半角單引號 `'`** 和**半角雙引號 `"`** 以適應不同的顯示方式。
 
 ## 時區 {#time-zone}
 
@@ -49,3 +45,25 @@ description: '慣例約定'
 
 [Same since 1970]: https://github.com/evansiroky/timezone-boundary-builder#same-since-1970
 [IANA]: https://www.iana.org/time-zones
+
+## 角分和角秒符號 {#arcminute-and-arcsecond}
+
+角分和角秒分別使用 ASCII **半角單引號 `'`** 和**半角雙引號 `"`** 以適應不同的顯示方式。
+
+## 日期格式 {#date-format}
+
+### ISO 8601
+
+[ISO 8601: 日期和時間格式](https://www.iso.org/iso-8601-date-and-time-format.html)
+
+```text
+# ISO 8601-2:2019
+日期和時間: YYYY-MM-DDThh:mm:ss[.sss][Z|±hh:mm]
+時間範圍: YYYY-MM-DD/YYYY-MM-DD
+```
+
+### 公曆紀元 {#common-era}
+
+[NASA 關於公曆紀元表示方法的約定](https://eclipse.gsfc.nasa.gov/SEhelp/dates.html) 解釋了使用 `BCE/CE` 代替 `BC/AD` 的理由：
+
+> *近年來，一些歷史學者提倡使用宗教中立的縮寫詞 BCE（公元前）代替“BC”、使用“CE”（公元）代替“AD”。由於這種表示方法的兩個縮寫都是後綴，因此更適合計算機表格的顯示。*

@@ -19,7 +19,7 @@ If the querying star never rises on the given date observed from the certain loc
 ![Star Never Rises](../../../assets/images/image-100.png){ .img-light } ![Star Never Rises](../../../assets/images/image-101.png){ .img-dark }
 :::
 
-### Date in the Chinese Calendar {#cc}
+### Date in the Chinese Calendar {#chinese-calendar-tooltip}
 
 If the querying date is able to be converted to the Chinese calendar, the converted date is placed as a tooltip. Hovering on the Gregorian or Julian date (or tapping on mobile devices) shows it.
 ![Date in Chinese calendar](../../../assets/images/image-80.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/image-81.png){ .img-dark }
