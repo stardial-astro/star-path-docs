@@ -7,8 +7,7 @@ description: '引用資源'
 
 **數據來源：** [JPL Planetary and Lunar Ephemerides](https://ssd.jpl.nasa.gov/planets/eph_export.html)
 **本項目中使用的星曆錶數據：** `DE406`
-
-::: card "日期範圍"
+**日期範圍：**
 
 ```sh
 # DE406 (created May 1997, 286.9MiB)
@@ -19,8 +18,6 @@ description: '引用資源'
 -3000-12-07/3000-01-10 (Julian)
 ```
 
-:::
-
 ## 依巴谷星表 {#hip}
 
 **數據來源：** [The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/cats/I/239)
@@ -28,7 +25,7 @@ description: '引用資源'
 ## 拜耳命名法星名和固有名稱 {#bayer-designation-and-proper-name}
 
 **數據來源：** [Tables from The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
-表格：`ident4`、`ident6`
+**表格：** `ident4`, `ident6`
 
 ## 中文星名 {#chinese-star-names}
 
@@ -60,14 +57,19 @@ description: '引用資源'
 :::
 
 ::: collapsible "刪除的重複條目"
-刪除了這些條目的重複項：
+這些條目與其他條目重複因此已刪除：
 
 - Sadatoni,z,Car,柱二(畢宿)
 - Suhail Radar,z,Car,柱二(畢宿)
 - Arkab,b,Sgr,"天淵一 , 天淵二"
 - Dabih Major,b1,Cap,牛宿一
 - Dabih Minor,b2,Cap,牛宿一
-- Added HIP:
+
+:::
+
+::: collapsible "添加依巴谷星表編號"
+添加了缺少的依巴谷星表編號：
+
 - k_Pup,弧矢六,37229
 
 :::

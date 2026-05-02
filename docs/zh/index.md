@@ -20,23 +20,24 @@ titleAppend: false
 
 ## :rocket: 开始 {#quick-start}
 
-[Star Path Viewer][] 根据提供的信息计算选定天体于一天之内在天球上的[视运动][apparent motion]轨迹。生成的结果包含一个展示轨迹的[地平坐标系][horizontal coordinate system]投影图以及一个包含升落、中天、晨昏蒙影数据的表格。
+[Star Path Viewer][] 根据输入信息计算选定天体于一天之内在天球上的[视运动][apparent motion]轨迹。生成的结果包含一个展示星轨的[地平坐标系][horizontal coordinate system]投影图以及一个包含升落、中天、晨昏蒙影数据的表格。
 
 **第一步：** 指定[`地理位置`][Location Input]、[`当地日期`][Date Input] 并[`选择天体`][Star Input]。
 
 **第二步：** 点击[`绘制星轨`][Draw]按钮。结果将显示在按钮下方。
 
 ::: callout tip "除此之外，也可作为便捷小工具使用"
-**→** [根据地址查询某地的**经纬度**][Search Address]
-**→** [获得某年某地的**二分二至**日期][Quick Entry]
-**→** [查看**不同日历**下的日期][Enter Date]
-**→** [根据星名查找某颗星的**依巴谷星表编号**，或根据编号查询它的名称][HIP]
-**→** [通过查询当晚将出现的某颗星，得知当天的**日落和黄昏时刻**，从而判断观看极光或流星雨的理想时间。][Anno]
+:bulb: 这个地点的**经纬度**是多少？→ [搜索地址][Search Address]
+:bulb: 今年的**春分/夏至/秋分/冬至**是哪天？→ [二分二至][Quick Entry]
+:bulb: 这颗星的**依巴谷星表编号**是多少？→ [搜索星名/依巴谷星表][HIP]
+:bulb: 这颗星的**中文名**是什么？→ [搜索中文星名][Chinese name]
+:bulb: 今晚什么时间天色足够暗到能看到极光/流星雨→ [查看日落和黄昏时刻][Anno]
+:bulb: 我该计划几点开始当天的天文摄影？→ [查看晨昏蒙影时刻][Anno]
 
 [Search Address]: ./guides/location/#search-address
 [Quick Entry]: ./guides/date/#look-up-season
-[Enter Date]: ./guides/date/#enter-date
-[HIP]: ./guides/star/#search-hip
+[HIP]: ./guides/star/#search-hip-by-number
+[Chinese name]: ./guides/star/#search-hip-by-chinese-name
 [Anno]: ./guides/results/#legend-and-table
 
 :::
@@ -55,6 +56,11 @@ titleAppend: false
 ::: grid
 ::: card "跨越古今" icon:pyramid
 支持查询**公元前3001年**至**公元3000年**间任意一天。
+:::
+:::
+::: grid
+::: card "直观图表" icon:image
+展示一天之中划过天空的**星轨**图像并配有明晰的**注释**。
 :::
 :::
 ::: grid

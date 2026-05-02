@@ -8,7 +8,7 @@ description: 'Information, diagram, and data table.'
 After sending the request by clicking the `DRAW STAR PATH` button, our server will return a diagram and a data table. The information about the querying location, date, and target will be displayed above the diagram.
 
 ::: callout info "About the Speed"
-As this is a non-profit academic application, our server is hosted under a free plan, so connection and processing times may occasionally be longer than usual. However, results are typically available within a few seconds at most.
+As this project is open-source and non-commercial, our server is hosted under a free plan. Therefore, the connection and processing times may occasionally be longer than expected. However, results are typically available within a few seconds at most.
 :::
 
 The path of the star's apparent motion is projected onto a [horizontal coordinate system][], where angles **altitude** (alt.) and **azimuth** (az.) are the two independent coordinates. The outermost outline on the diagram represents the horizon observer's local horizon. The [north and south celestial poles][] (labeled `NCP` and `SCP`) and the [zenith][] (labeled `Z`) are shown if they are within the coordinate range.

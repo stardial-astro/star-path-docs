@@ -20,23 +20,24 @@ An online astronomical application for tracking a star on a given date.
 
 ## :rocket: Quick Start {#quick-start}
 
-[Star Path Viewer][] computes this target's positions on the celestial sphere based on the querying information. It generates a diagram with a curved path representing the [apparent motion][] projected onto the observer's local [horizontal coordinate system][]. A table of the rising/setting/transit/twilight times and star positions will also be appended.
+[Star Path Viewer][] computes a planet or star's positions on the celestial sphere based on input. It generates a diagram with a curved path representing the [apparent motion][] projected onto the observer's local [horizontal coordinate system][]. A table of the rising/setting/transit/twilight times and star positions will also be appended.
 
 **Step 1.** To make a request, please provide the [`LOCATION`][Location Input], [`LOCAL DATE`][Date Input], and [`CELESTIAL OBJECT`][Star Input].
 
 **Step 2.** Click the [`DRAW STAR PATH`][Draw] button to submit the request. The results will be displayed below this button.
 
 ::: callout tip "There are other things you can do using this app as a handy gizmo"
-**→** [Obtain the **latitude/longitude** of a location by searching an address.][Search Address]
-**→** [Query the **equinox/solstice** dates of a certain year.][Quick Entry]
-**→** [Check a date in multiple **calendars**.][Enter Date]
-**→** [Look up a star's **Hipparcos Catalogue** number by its name, and vice versa.][HIP]
-**→** [By querying a star's that shows up tonight, view the **sunset and twilight times** from the results to determine the ideal time to observe the aurora borealis or meteor showers.][Anno]
+:bulb: What is the **latitude/longitude** of this location? → [Search address][Search Address]
+:bulb: When are the **equinoxes/solstices** of this year? → [Equinoxes/solstices][Quick Entry]
+:bulb: What is the **name / Hipparcos Catalogue number** of this star? → [Search name/HIP][HIP]
+:bulb: What is the **Chinese name** of this star? → [Search Chinese name][Chinese name]
+:bulb: When will it get dark enough to observe the **aurora borealis** / **meteor shower** tonight? → [Check sunset and twilight times][Anno]
+:bulb: What time shall I plan to start astrophotography that day? → [Check twilight times][Anno]
 
 [Search Address]: ./guides/location/#search-address
 [Quick Entry]: ./guides/date/#look-up-season
-[Enter Date]: ./guides/date/#enter-date
-[HIP]: ./guides/star/#search-hip
+[HIP]: ./guides/star/#search-hip-by-number
+[Chinese name]: ./guides/star/#search-hip-by-chinese-name
 [Anno]: ./guides/results/#legend-and-table
 
 :::
@@ -55,6 +56,11 @@ An online astronomical application for tracking a star on a given date.
 ::: grid
 ::: card "Across the Ages" icon:pyramid
 Covers a wide range of querying dates from **3001 BCE** to **3000 CE**.
+:::
+:::
+::: grid
+::: card "Intuitive Diagram and Table" icon:image
+Demonstrates a complete **star path** across the sky in a day with explicit **annotations**.
 :::
 :::
 ::: grid

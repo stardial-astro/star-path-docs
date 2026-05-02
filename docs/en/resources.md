@@ -7,8 +7,7 @@ description: 'Resources'
 
 **Data source:** [JPL Planetary and Lunar Ephemerides](https://ssd.jpl.nasa.gov/planets/eph_export.html)
 **Ephemeris used in this project:** `DE406`
-
-::: card "Date Range"
+**Date Range:**
 
 ```sh
 # DE406 (created May 1997, 286.9MiB)
@@ -19,8 +18,6 @@ description: 'Resources'
 -3000-12-07/3000-01-10 (Julian)
 ```
 
-:::
-
 ## Hipparcos Catalogue {#hip}
 
 **Data source:** [The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/cats/I/239)
@@ -28,7 +25,7 @@ description: 'Resources'
 ## Bayer Designation and Proper Name {#bayer-designation-and-proper-name}
 
 **Data source:** [Tables from The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
-Tables: `ident4`, `ident6`
+**Tables:** `ident4`, `ident6`
 
 ## Chinese Star Names {#chinese-star-names}
 
@@ -60,14 +57,19 @@ These entires are modified for consistency:
 :::
 
 ::: collapsible "Removed Duplicates"
-Duplicates of these entries are removed:
+These entries are duplicates of other entries, so they were removed:
 
 - Sadatoni,z,Car,柱二(畢宿)
 - Suhail Radar,z,Car,柱二(畢宿)
 - Arkab,b,Sgr,"天淵一 , 天淵二"
 - Dabih Major,b1,Cap,牛宿一
 - Dabih Minor,b2,Cap,牛宿一
-- Added HIP:
+
+:::
+
+::: collapsible "Added HIP"
+Added missing HIP:
+
 - k_Pup,弧矢六,37229
 
 :::
