@@ -32,7 +32,7 @@ An online astronomical application for tracking a star on a given date.
 :bulb: What is the **name / Hipparcos Catalogue number** of this star? → [Search name/HIP][HIP]
 :bulb: What is the **Chinese name** of this star? → [Search Chinese name][Chinese name]
 :bulb: When will it get dark enough to observe the **aurora borealis** / **meteor shower** tonight? → [Check sunset and twilight times][Anno]
-:bulb: What time shall I plan to start astrophotography that day? → [Check twilight times][Anno]
+:bulb: How should I schedule my **astrophotography**? → [Check twilight times][Anno]
 
 [Search Address]: ./guides/location/#search-address
 [Quick Entry]: ./guides/date/#look-up-season
@@ -59,12 +59,17 @@ Covers a wide range of querying dates from **3001 BCE** to **3000 CE**.
 :::
 :::
 ::: grid
-::: card "Intuitive Diagram and Table" icon:image
-Demonstrates a complete **star path** across the sky in a day with explicit **annotations**.
+::: card "Authoritative Sources " icon:atom
+Powered by **authoritative data sources** and **scientific libraries**.
 :::
 :::
 ::: grid
-::: card "Twilight Transitions" icon:sunrise
+::: card "Intuitive Visualization" icon:sparkles
+Demonstrates a complete **star path** across the sky with explicit **annotations**.
+:::
+:::
+::: grid
+::: card "Twilight Transitions" icon:sunset
 Marks a star's **rising/setting/transit** times and its positions during **twilights**.
 :::
 :::
@@ -75,7 +80,7 @@ Supports **Gregorian** and **Julian** calendars. Displays available **Chinese ca
 :::
 ::: grid
 ::: card "Equinoxes and Solstices" icon:zodiac-aries
-Easily queries **equinoxes** and **solstices** by giving a year and a location.
+Offers queries for **equinoxes** and **solstices** given a year and a location.
 :::
 :::
 :::

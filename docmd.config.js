@@ -72,7 +72,7 @@ export default defineConfig({
   /* --- Localization --- */
   i18n: {
     default: 'en',
-    position: 'sidebar-top',
+    position: 'options-menu',
     locales: [
       {
         id: 'en',
@@ -118,17 +118,17 @@ export default defineConfig({
   },
 
   /* --- Versioning --- */
-  versions: {
-    current: '1.3',
-    position: 'sidebar-top',
-    all: [
-      {
-        id: '1.3',
-        dir: 'docs', // Source directory for latest version
-        label: '1.3',
-      },
-    ],
-  },
+  // versions: {
+  //   current: '1.3.2',
+  //   position: 'sidebar-top',
+  //   all: [
+  //     {
+  //       id: '1.3.2',
+  //       dir: 'docs', // Source directory for latest version
+  //       label: '1.3.2',
+  //     },
+  //   ],
+  // },
 
   /* --- Plugins --- */
   // plugins: {

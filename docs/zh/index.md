@@ -1,5 +1,5 @@
 ---
-title: '说明文档'
+title: '文档'
 description: '追踪某时某地的天体视运动轨迹'
 titleAppend: false
 ---
@@ -31,8 +31,8 @@ titleAppend: false
 :bulb: 今年的**春分/夏至/秋分/冬至**是哪天？→ [二分二至][Quick Entry]
 :bulb: 这颗星的**依巴谷星表编号**是多少？→ [搜索星名/依巴谷星表][HIP]
 :bulb: 这颗星的**中文名**是什么？→ [搜索中文星名][Chinese name]
-:bulb: 今晚什么时间天色足够暗到能看到极光/流星雨→ [查看日落和黄昏时刻][Anno]
-:bulb: 我该计划几点开始当天的天文摄影？→ [查看晨昏蒙影时刻][Anno]
+:bulb: 今晚什么时间天色足够暗到能看到**极光/流星雨**→ [查看日落和黄昏时刻][Anno]
+:bulb: 我该如何规划**天文摄影**的时间？→ [查看晨昏蒙影时刻][Anno]
 
 [Search Address]: ./guides/location/#search-address
 [Quick Entry]: ./guides/date/#look-up-season
@@ -59,22 +59,27 @@ titleAppend: false
 :::
 :::
 ::: grid
-::: card "直观图表" icon:image
-展示一天之中划过天空的**星轨**图像并配有明晰的**注释**。
+::: card "权威数据" icon:atom
+基于全球天文机构**权威数据源**和**专业科学库**精心构建。
 :::
 :::
 ::: grid
-::: card "晨昏蒙影" icon:sunrise
+::: card "直观呈现" icon:sparkles
+直观展示天球上的**星轨**图像并配有明晰的**注释**。
+:::
+:::
+::: grid
+::: card "晨昏蒙影" icon:sunset
 标记天体**升落**和**过中天**的时刻及其在不同**晨昏蒙影**阶段的位置。
 :::
 :::
 ::: grid
-::: card "多历日期" icon:calendars
-输入和显示日期支持**格里历**和**儒略历**，可同时显示**农历**。
+::: card "多种日历" icon:calendars
+同时支持**格里历**和**儒略历**，支持**农历**日期显示。
 :::
 :::
 ::: grid
-::: card "二分二至" icon:orbit
+::: card "二分二至" icon:zodiac-aries
 指定年份和地点可便捷获得**春分**、**夏至**、**秋分**和**冬至**日期。
 :::
 :::

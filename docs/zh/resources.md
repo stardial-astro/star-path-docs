@@ -5,7 +5,7 @@ description: '引用资源'
 
 ## 星历表 {#ephemeris}
 
-**数据来源：** [JPL Planetary and Lunar Ephemerides](https://ssd.jpl.nasa.gov/planets/eph_export.html)
+**数据来源：** [美国喷气推进实验室（JPL）星历表](https://ssd.jpl.nasa.gov/planets/eph_export.html)
 **本项目中使用的星历表数据：** `DE406`
 **日期范围：**
 
@@ -20,12 +20,14 @@ description: '引用资源'
 
 ## 依巴谷星表 {#hip}
 
-**数据来源：** [The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/cats/I/239)
+**数据来源：** [依巴谷和第谷星表](https://cdsarc.cds.unistra.fr/ftp/cats/I/239)
 
-## 拜耳命名法星名和固有名称 {#bayer-designation-and-proper-name}
+## 拜耳星名和专有名称 {#bayer-designation-and-proper-name}
 
-**数据来源：** [Tables from The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
-**表格：** `ident4`, `ident6`
+**数据来源：** [依巴谷和第谷星表中的交叉证认表](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
+**表格：**
+`ident4` —— 拜耳星名与依巴谷星表编号
+`ident6` —— 专有名称与依巴谷星表编号
 
 ## 中文星名 {#chinese-star-names}
 

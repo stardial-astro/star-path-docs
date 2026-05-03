@@ -24,8 +24,10 @@ description: 'Resources'
 
 ## Bayer Designation and Proper Name {#bayer-designation-and-proper-name}
 
-**Data source:** [Tables from The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
-**Tables:** `ident4`, `ident6`
+**Data source:** [Cross-identification tables from The Hipparcos and Tycho Catalogues](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
+**Tables:**
+`ident4` — Bayer designation and HIP
+`ident6` — proper name and HIP
 
 ## Chinese Star Names {#chinese-star-names}
 

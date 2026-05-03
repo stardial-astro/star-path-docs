@@ -36,6 +36,7 @@ Enter a **proper name** or **Bayer designation** (case-insensitive), then select
 ![HIP by Proper Name or Bayer Designation](../../../assets/images/image-36.png){ .img-light } ![HIP by Proper Name or Bayer Designation](../../../assets/images/image-37.png){ .img-dark }
 
 ::: callout info "Greek Romanization"
+The format of Bayer designation used in this app is based on that in the original cross-identification tables (see [Resources][] for the data source).
 
 ```text
 α → alf   β → bet   γ → gam   δ → del     ε → eps   ζ → zet
@@ -43,6 +44,8 @@ Enter a **proper name** or **Bayer designation** (case-insensitive), then select
 ν → nu    ξ → ksi   ο → omi   π → pi      ρ → rho   σ → sig
 τ → tau   υ → ups   φ → phi   χ → chi/xi  ψ → psi   ω → ome
 ```
+
+[Resources]: ../resources/#bayer-designation-and-proper-name
 
 :::
 

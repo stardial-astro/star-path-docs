@@ -16,7 +16,7 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 輸入數字以檢索編號，然後從下拉列表中選擇一個條目。
 ![檢索 HIP](../../../assets/images/image-62.png){ .img-light } ![檢索 HIP](../../../assets/images/image-63.png){ .img-dark }
 
-如上所示，如果候選條目的數據中包含任何[拜耳命名法][Bayer designation]星名、[固有名稱][proper name]或中文名，將同時顯示在編號旁以供參考。
+如上所示，如果候選條目的數據中包含任何[拜耳星名][Bayer designation]、[專有名稱][proper name]或中文名，將同時顯示在編號旁以供參考。
 
 ::: callout info "可檢索的依巴谷星表編號範圍"
 我們從[依巴谷星表數據源][HIP data]中篩選的可供檢索的編號範圍為 `1` 至 `118322`。儘管原表中存在編號更大的天體，但它們的信息不完整且幾乎不會被用到，因此我們排除了這些條目。
@@ -30,12 +30,13 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 
 :::
 
-### 通過拉丁星名檢索編號 {#search-hip-by-name}
+### 通過專有名稱或拜耳星名檢索編號 {#search-hip-by-name}
 
-輸入**固有名稱**或**拜耳命名法星名**（不區分大小寫），然後從下拉列表中選擇一個條目以獲取編號。
+輸入**專有名稱**或**拜耳星名**（不區分大小寫），然後從下拉列表中選擇一個條目以獲取編號。
 ![通過星名檢索 HIP](../../../assets/images/image-68.png){ .img-light } ![通過星名檢索 HIP](../../../assets/images/image-69.png){ .img-dark }
 
 ::: callout info "希臘字母與拉丁縮寫對照表"
+本應用中拜耳星名的格式參考了數據源中的格式（數據源見[引用資源][Resources]）。
 
 ```text
 α → alf   β → bet   γ → gam   δ → del     ε → eps   ζ → zet
@@ -43,6 +44,8 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 ν → nu    ξ → ksi   ο → omi   π → pi      ρ → rho   σ → sig
 τ → tau   υ → ups   φ → phi   χ → chi/xi  ψ → psi   ω → ome
 ```
+
+[Resources]: ../resources/#bayer-designation-and-proper-name
 
 :::
 
