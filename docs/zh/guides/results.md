@@ -11,7 +11,7 @@ description: '显示相关信息、星轨图和数据表格'
 由于这是一个非商用的开源项目，我们服务器的搭载使用的是免费计划。因此，连接和运算时间偶尔会比预计长一些，但通常最多等待几秒钟即可获得结果。
 :::
 
-天体的视运动轨迹投影在[地平坐标系][horizontal coordinate system]上。该坐标系的两个独立坐标分别为**高度角**（alt.）和**方位角**（az.）。图中最外圈表示观测位置的地平线。[南北天极][north and south celestial poles]和[天顶][zenith]如果在坐标范围内，将分别标记为 `NCP`、`SCP` 和 `Z`。
+天体的视运动轨迹投影在[地平坐标系][horizontal coordinate system]上。该坐标系的两个独立坐标分别为**高度角**（地平纬度）和**方位角**（地平经度）。图中最外圈表示地平线。[南北天极][north and south celestial poles]和[天顶][zenith]如果在坐标范围内，将分别标记为 `NCP`、`SCP` 和 `Z`。
 ![图像](../../../assets/images/image-84.png){ .img-light } ![图像](../../../assets/images/image-85.png){ .img-dark }
 
 ::: callout info "如果天体未升起"
