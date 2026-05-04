@@ -131,15 +131,18 @@ export default defineConfig({
   },
 
   /* --- Plugins --- */
-  // plugins: {
-  //   seo: {
-  //     defaultDescription: 'Documentation of Star Path Viewer.',
-  //     openGraph: { defaultImage: '' },
-  //     twitter: { cardType: 'summary_large_image' },
-  //   },
-  //   sitemap: { defaultChangefreq: 'weekly' },
-  //   analytics: {
-  //     googleV4: { measurementId: 'G-XXX' },
-  //   },
-  // },
+  plugins: {
+    seo: {
+      defaultDescription: 'Documentation of Star Path Viewer.',
+      aiBots: false,
+      openGraph: {
+        defaultImage: '/assets/images/star-path-viewer_card.jpg',
+      },
+      twitter: { cardType: 'summary_large_image' },
+    },
+    sitemap: { defaultChangefreq: 'weekly' },
+    analytics: {
+      googleV4: { measurementId: 'G-VZXGSCVVXF' },
+    },
+  },
 });
