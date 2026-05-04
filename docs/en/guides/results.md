@@ -61,7 +61,7 @@ The [atmospheric refraction][] has been taken into account in the position calcu
 
 ## Export {#export}
 
-The diagram can be exported as `SVG`, `PNG`, or `PDF`. The table can be exported as `CSV`, `JSON`, or `XLSX`.
+The diagram can be exported as `SVG`, `PNG`, or `PDF`. The table can be exported as `CSV`, `JSON`, or `XLSX`. The number in the filename, e.g., `1777589177.716`, is a Unix timestamp representing the creation time of the results and is the same across both the exported image and table.
 
 ::: card "Metadata"
 The information about this query will be embedded as the **metadata** in `SVG`:
