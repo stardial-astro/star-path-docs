@@ -58,6 +58,11 @@
     "icon": "pencil-line"
   },
   {
+    "title": "工具對比",
+    "path": "/comparison",
+    "icon": "scale"
+  },
+  {
     "title": "疑難解答",
     "path": "/troubleshooting",
     "icon": "wrench"

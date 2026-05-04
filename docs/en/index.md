@@ -8,7 +8,7 @@ titleAppend: false
 
 # Star Path Viewer
 
-An online astronomical application for tracking a star on a given date.
+An online astronomical application for all-day star path tracking.
 
 ::: button "Guides" ./guides/location.md icon:telescope
 ::: button "GitHub" external:https://github.com/stardial-astro/star-path-viewer color:#333 icon:github
@@ -65,7 +65,7 @@ Powered by **authoritative data sources** and **scientific libraries**.
 :::
 ::: grid
 ::: card "Intuitive Visualization" icon:sparkles
-Demonstrates a complete **star path** across the sky with explicit **annotations**.
+Depicts a complete **star path** across the sky during a day with explicit **annotations**.
 :::
 :::
 ::: grid

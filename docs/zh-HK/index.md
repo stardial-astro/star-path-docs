@@ -8,7 +8,7 @@ titleAppend: false
 
 # Star Path Viewer
 
-追蹤天體視運動軌跡的在線天文工具
+全天星軌追蹤在線天文工具
 
 ::: button "使用指南" ./guides/location.md icon:telescope
 ::: button "GitHub" external:https://github.com/stardial-astro/star-path-viewer color:#333 icon:github
@@ -22,7 +22,7 @@ titleAppend: false
 
 [Star Path Viewer][] 根據輸入信息計算選定天體於一天之內在天球上的[視運動][apparent motion]軌跡。生成的結果包含一個展示星軌的[地平座標系][horizontal coordinate system]投影圖以及一個包含升落、中天、晨昏蒙影數據的表格。
 
-**第一步：** 指定[`地理位置`][Location Input]、[`當地日期`][Date Input] 並[`選擇天體`][Star Input]。
+**第一步：** 指定[`地理位置`][Location Input]、[`當地日期`][Date Input]並[`選擇天體`][Star Input]。
 
 **第二步：** 點擊[`繪製星軌`][Draw]按鈕。結果將顯示在按鈕下方。
 
@@ -60,12 +60,12 @@ titleAppend: false
 :::
 ::: grid
 ::: card "權威數據" icon:atom
-基於**權威數據源**和**專業科學庫**構建。
+基於全球天文機構**權威數據源**和**專業科學庫**精心構建。
 :::
 :::
 ::: grid
 ::: card "直觀呈現" icon:sparkles
-直觀展示天球上的**星軌**圖像並配有明晰的**註釋**。
+描繪直觀完整的全天**星軌**圖像，並配以明晰的**註釋**。
 :::
 :::
 ::: grid
@@ -75,7 +75,7 @@ titleAppend: false
 :::
 ::: grid
 ::: card "多種日曆" icon:calendars
-同時支持**格里曆**和**儒略曆**，支持**農曆**日期顯示。
+支持**格里曆**與**儒略曆**日期輸入與顯示，同時支持**農曆**日期顯示。
 :::
 :::
 ::: grid

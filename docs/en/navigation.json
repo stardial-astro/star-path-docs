@@ -58,6 +58,11 @@
     "icon": "pencil-line"
   },
   {
+    "title": "Comparison",
+    "path": "/comparison",
+    "icon": "scale"
+  },
+  {
     "title": "Troubleshooting",
     "path": "/troubleshooting",
     "icon": "wrench"
