@@ -118,17 +118,17 @@ export default defineConfig({
   },
 
   /* --- Versioning --- */
-  // versions: {
-  //   current: '1.3.2',
-  //   position: 'sidebar-top',
-  //   all: [
-  //     {
-  //       id: '1.3.2',
-  //       dir: 'docs', // Source directory for latest version
-  //       label: '1.3.2',
-  //     },
-  //   ],
-  // },
+  versions: {
+    current: '1.3.2',
+    position: 'sidebar-top',
+    all: [
+      {
+        id: '1.3.2',
+        dir: 'docs', // Source directory for latest version
+        label: '1.3.2',
+      },
+    ],
+  },
 
   /* --- Plugins --- */
   // plugins: {
