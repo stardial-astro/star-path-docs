@@ -28,9 +28,9 @@ description: '顯示相關信息、星軌圖和數據表格'
 [north and south celestial poles]: https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%A5%B5
 [zenith]: https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%A0%82
 
-## 圖例和數據表格 {#legend-and-table}
+## 圖例與座標時刻表 {#legend-and-table}
 
-圖中的星軌根據不同晨昏階段使用不同線型繪製加以區分。所選天體在升落和中天的位置也標記在圖中。圖片下方附帶了圖例和數據表格供參考。表格中包含了這些標記位置的相應座標和時刻。
+圖中的星軌根據不同晨昏階段使用不同線型繪製加以區分。所選天體在升落和中天的位置也標記在圖中。圖片下方附帶了圖例和數據表格供參考。表格中包含了這些標記點的相應座標和時刻。
 ![表格](../../../assets/images/image-94.png){ .img-light } ![表格](../../../assets/images/image-95.png){ .img-dark }
 
 ::: callout tip "標記點説明"

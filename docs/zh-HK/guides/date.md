@@ -10,7 +10,7 @@ description: '填寫年月日或快速輸入二分二至日期'
 可查詢的日期範圍為：**公元前3001年2月23日（儒略曆）**至**公元3000年5月6日（格里曆）**。
 ![輸入日期](../../../assets/images/image-24.png){ .img-light } ![輸入日期](../../../assets/images/image-25.png){ .img-dark }
 
-`年`的輸入值根據 [天文計年法][astronomical year numbering]，`0` 表示**公元前1年**。
+`年`的輸入值採用 [天文計年法][astronomical year numbering]，`0` 表示**公元前1年**。
 
 ::: callout info "日曆轉換"
 格里曆和儒略曆的日期會在生成圖像時同時返回。日期不會在切換這兩種歷時轉換，而是在計算軌跡的同時進行轉換。

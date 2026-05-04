@@ -28,7 +28,7 @@ If the querying date is able to be converted to the Chinese calendar, the conver
 [north and south celestial poles]: https://en.wikipedia.org/wiki/Celestial_pole
 [zenith]: https://en.wikipedia.org/wiki/Zenith
 
-## Legend and Data Table {#legend-and-table}
+## Legend and Table of Coordinates and Times {#legend-and-table}
 
 The path segments are depicted in different styles according to the **twilight types**. The star positions at **rising**, **setting**, and **meridian-transit** are marked as points on the diagram as well. A legend and a table containing coordinates and times of these points are appended to show more details.
 ![Table](../../../assets/images/image-78.png){ .img-light } ![Table](../../../assets/images/image-79.png){ .img-dark }
