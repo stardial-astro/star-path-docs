@@ -41,7 +41,7 @@ description: '惯例约定'
 
 本项目中调用的时区数据使用的是 ["**Same since 1970**" from Timezone Boundary Builder][Same since 1970]。根据 [IANA time zone database][IANA]，这个数据库该数据库试图记录自 1970 年（Unix 时间戳）以来的历史时区和所有民事变更。
 
-本项目中的时区标识和标准偏移量代表特定位置的**当前时区**。这是为了保证生成稳定且无歧义的时区标识，同时也为用户提供更熟悉、更直观的当地时间参考。这些时区标识仅用于计算二分二至日期、计算升落时间窗口以及结果表格中`标准时间`这一列的数据显示。
+本项目中的时区标识（Time zone ID）和标准偏移量（standard offset）反映某地理位置的**当前时区**。这是为了保证生成稳定且无歧义的时区标识，同时也为用户提供更熟悉、更直观的当地时间参考。其取值仅用于计算二分二至日期、计算升落时间窗口以及结果表格中`标准时`这一列的数据显示。
 
 [Same since 1970]: https://github.com/evansiroky/timezone-boundary-builder#same-since-1970
 [IANA]: https://www.iana.org/time-zones

@@ -44,7 +44,7 @@ description: '显示相关信息、星轨图和数据表格'
 ::: callout info "地方平时"
 表格中的[地方平时（LMT）][LMT]直接由观测地经纬度计算得出。
 
-关于**标准时间**，参见[时区][Time Zone]部分的说明。
+关于**标准时**，参见[时区][Time Zone]部分的说明。
 
 [LMT]: https://zh.wikipedia.org/wiki/%E5%9C%B0%E6%96%B9%E5%B9%B3%E6%99%82
 [Time Zone]: ../conventions/#time-zone
