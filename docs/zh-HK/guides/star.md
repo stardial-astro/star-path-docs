@@ -69,7 +69,7 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 
 ## 指定天球座標 {#enter-radec}
 
-可通過輸入[國際天球參考系（ICRS）][ICRS]的[赤經][RA]和[赤緯][Dec]座標來跟蹤天球上一個固定的點。
+可通過輸入[國際天球參考系（ICRS）][ICRS]（J2000）的[赤經][RA]和[赤緯][Dec]座標來跟蹤天球上一個固定的點。
 
 輸入格式可選擇**赤經**用**時·分·秒（HMS）**、**赤緯**用**度·分·秒（DMS）**：
 ![HMS 和 DMS 格式赤經赤緯](../../../assets/images/image-72.png){ .img-light } ![HMS 和 DMS 格式赤經赤緯](../../../assets/images/image-73.png){ .img-dark }

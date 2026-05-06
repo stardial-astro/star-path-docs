@@ -69,7 +69,7 @@ You can use either `v`, `yu`, or `u` for `ü`.
 
 ## Specify RA/Dec {#enter-radec}
 
-You can track a fixed point in the sky by giving the [International Celestial Reference System (ICRS)][ICRS] coordinates [right ascension (RA)][RA] and [declination (Dec)][Dec].
+You can track a fixed point in the sky by giving the [International Celestial Reference System (ICRS)][ICRS] coordinates (J2000) [right ascension (RA)][RA] and [declination (Dec)][Dec].
 
 Enter **RA** in **HMS** (Hour, Minute, and Second) format and **Dec** in **DMS** (Degree, Minute, and Second) format:
 ![Radec in HMS and DMS](../../../assets/images/image-40.png){ .img-light } ![Radec in HMS and DMS](../../../assets/images/image-41.png){ .img-dark }
