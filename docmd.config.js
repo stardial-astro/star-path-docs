@@ -16,7 +16,7 @@ export default defineConfig({
   favicon: 'assets/favicon.ico',
 
   /* --- Structure --- */
-  src: 'docs',
+  src: '.',
   out: 'site',
 
   /* --- Features & UX --- */
@@ -28,7 +28,7 @@ export default defineConfig({
 
   editLink: {
     enabled: true,
-    baseUrl: 'https://github.com/stardial-astro/star-path-docs/edit/main/docs',
+    baseUrl: 'https://github.com/stardial-astro/star-path-docs/edit/main',
   },
 
   /* --- Theme Settings --- */
