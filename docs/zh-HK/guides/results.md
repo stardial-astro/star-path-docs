@@ -12,7 +12,7 @@ description: '顯示相關信息、星軌圖和數據表格'
 :::
 
 天體的視運動軌跡投影在[地平座標系][horizontal coordinate system]上。該座標系的兩個獨立座標分別為**高度角**（地平緯度）和**方位角**（地平經度）。圖中最外圈表示地平線。[南北天極][north and south celestial poles]和[天頂][zenith]如果在座標範圍內，將分別標記為 `NCP`、`SCP` 和 `Z`。
-![圖像](../../../assets/images/latest/image-92.png){ .img-light } ![圖像](../../../assets/images/latest/image-93.png){ .img-dark }
+![圖像](../../../assets/images/latest/image-92.png){ .img-light .size-large } ![圖像](../../../assets/images/latest/image-93.png){ .img-dark .size-large }
 
 ::: callout info "如果天體未升起"
 如果對所選地點和日期，查詢的天體未曾升起，將顯示提示：
