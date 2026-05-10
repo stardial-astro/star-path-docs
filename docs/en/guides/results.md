@@ -12,7 +12,10 @@ As this project is open-source and non-commercial, our server is hosted under a 
 :::
 
 The path of the star's apparent motion is projected onto a [horizontal coordinate system][], where angles **altitude** (alt.) and **azimuth** (az.) are the two independent coordinates. The outermost outline on the diagram represents the horizon observer's local horizon. The [north and south celestial poles][] (labeled `NCP` and `SCP`) and the [zenith][] (labeled `Z`) are shown if they are within the coordinate range.
-![Diagram](../../../assets/images/latest/image-76.png){ .img-light .size-large } ![Diagram](../../../assets/images/latest/image-77.png){ .img-dark .size-large }
+
+::: collapsible "Diagram Example"
+![Diagram](../../../assets/images/latest/image-76.png){ .img-light } ![Diagram](../../../assets/images/latest/image-77.png){ .img-dark }
+:::
 
 ::: callout info "If a Star Never Rises"
 If the querying star never rises on the given date observed from the certain location, it warns:
