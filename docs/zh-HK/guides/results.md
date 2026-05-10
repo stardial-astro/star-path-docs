@@ -12,17 +12,17 @@ description: '顯示相關信息、星軌圖和數據表格'
 :::
 
 天體的視運動軌跡投影在[地平座標系][horizontal coordinate system]上。該座標系的兩個獨立座標分別為**高度角**（地平緯度）和**方位角**（地平經度）。圖中最外圈表示地平線。[南北天極][north and south celestial poles]和[天頂][zenith]如果在座標範圍內，將分別標記為 `NCP`、`SCP` 和 `Z`。
-![圖像](../../../assets/images/image-92.png){ .img-light } ![圖像](../../../assets/images/image-93.png){ .img-dark }
+![圖像](../../../assets/images/latest/image-92.png){ .img-light } ![圖像](../../../assets/images/latest/image-93.png){ .img-dark }
 
 ::: callout info "如果天體未升起"
 如果對所選地點和日期，查詢的天體未曾升起，將顯示提示：
-![Star Never Rises](../../../assets/images/image-104.png){ .img-light } ![Star Never Rises](../../../assets/images/image-105.png){ .img-dark }
+![Star Never Rises](../../../assets/images/latest/image-104.png){ .img-light } ![Star Never Rises](../../../assets/images/latest/image-105.png){ .img-dark }
 :::
 
 ### 農曆日期 {#chinese-calendar-tooltip}
 
 如果查詢的日期可被轉換為農曆，該農曆日期將顯示為浮動提示。光標懸停在格里曆或儒略曆日期上（在移動端則輕觸）即可看到提示。
-![Date in Chinese calendar](../../../assets/images/image-96.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/image-97.png){ .img-dark }
+![Date in Chinese calendar](../../../assets/images/latest/image-96.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/latest/image-97.png){ .img-dark }
 
 [horizontal coordinate system]: https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
 [north and south celestial poles]: https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%A5%B5
@@ -31,11 +31,11 @@ description: '顯示相關信息、星軌圖和數據表格'
 ## 圖例與座標時刻表 {#legend-and-table}
 
 圖中的星軌根據不同晨昏階段使用不同線型繪製加以區分。所選天體在升落和中天的位置也標記在圖中。圖片下方附帶了圖例和數據表格供參考。表格中包含了這些標記點的相應座標和時刻。
-![表格](../../../assets/images/image-94.png){ .img-light } ![表格](../../../assets/images/image-95.png){ .img-dark }
+![表格](../../../assets/images/latest/image-94.png){ .img-light } ![表格](../../../assets/images/latest/image-95.png){ .img-dark }
 
 ::: callout tip "標記點説明"
 光標懸停在 **ⓘ** 符號上（在移動端則輕觸）可打開相應標記點的解釋。參見[慣例約定][Conventions]部分。
-![標記點説明](../../../assets/images/image-98.png){ .img-light } ![標記點説明](../../../assets/images/image-99.png){ .img-dark }
+![標記點説明](../../../assets/images/latest/image-98.png){ .img-light } ![標記點説明](../../../assets/images/latest/image-99.png){ .img-dark }
 
 [Conventions]: ../conventions/
 

@@ -10,19 +10,19 @@ description: '搜索地点或输入经纬度'
 ## 定位当前位置 {#gps}
 
 在`搜索地址`模式，点击按钮进行定位。这一步会自动设定**经纬度**。如果定位失败，将自动使用 IP 地址获得粗略的经纬度。
-![定位当前位置](../../../assets/images/image-8.png){ .img-light } ![定位当前位置](../../../assets/images/image-9.png){ .img-dark }
+![定位当前位置](../../../assets/images/latest/image-8.png){ .img-light } ![定位当前位置](../../../assets/images/latest/image-9.png){ .img-dark }
 
 ## 搜索地址 {#search-address}
 
-![搜索地址](../../../assets/images/image-2.png){ .img-light } ![搜索地址](../../../assets/images/image-3.png){ .img-dark }
+![搜索地址](../../../assets/images/latest/image-2.png){ .img-light } ![搜索地址](../../../assets/images/latest/image-3.png){ .img-dark }
 
 确定地址后，后台将同时记录得到的经纬度数据。此时如果切换到`输入坐标`模式，会发现经纬度已经填好了。
 需要注意的是如果此时再次切回`搜索地址`模式，地理位置信息将被清空。
-![显示经纬度](../../../assets/images/image-6.png){ .img-light } ![显示经纬度](../../../assets/images/image-7.png){ .img-dark }
+![显示经纬度](../../../assets/images/latest/image-6.png){ .img-light } ![显示经纬度](../../../assets/images/latest/image-7.png){ .img-dark }
 
 ::: card "地理位置服务"
 在境外访问时默认的地理位置服务是 [Nominatim][]，使用开放地图数据 [OpenStreetMap][]。 在墙内访问时将使用[天地图][Tianditu]进行定位以及[腾讯位置服务][QQ LBS service]进行搜索。这种情况下推荐使用中文搜索以得到更准确的结果。
-![使用腾讯位置服务](../../../assets/images/image-4.png){ .img-light } ![使用腾讯位置服务](../../../assets/images/image-5.png){ .img-dark }
+![使用腾讯位置服务](../../../assets/images/latest/image-4.png){ .img-light } ![使用腾讯位置服务](../../../assets/images/latest/image-5.png){ .img-dark }
 
 ::: callout warning
 使用腾讯位置服务时，地址选项将显示为简体中文，暂不支持以繁体中文显示。

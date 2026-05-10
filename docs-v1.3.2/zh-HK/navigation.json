@@ -1,0 +1,76 @@
+[
+  {
+    "title": "打開 Star Path Viewer",
+    "path": "https://star-path-viewer.pages.dev",
+    "icon": "play",
+    "external": true
+  },
+  {
+    "title": "概覽",
+    "path": "/",
+    "icon": "home"
+  },
+  {
+    "title": "使用指南",
+    "icon": "telescope",
+    "collapsible": false,
+    "children": [
+      {
+        "title": "地點輸入",
+        "path": "/guides/location",
+        "icon": "map"
+      },
+      {
+        "title": "日期輸入",
+        "path": "/guides/date",
+        "icon": "calendar-1"
+      },
+      {
+        "title": "天體輸入",
+        "path": "/guides/star",
+        "icon": "sparkle"
+      },
+      {
+        "title": "計算結果",
+        "path": "/guides/results",
+        "icon": "orbit"
+      }
+    ]
+  },
+  {
+    "title": "案例展示",
+    "path": "/examples",
+    "icon": "notebook"
+  },
+  {
+    "title": "引用資源",
+    "path": "/resources",
+    "icon": "tool-case"
+  },
+  {
+    "title": "參考資料",
+    "path": "/references",
+    "icon": "book-search"
+  },
+  {
+    "title": "慣例約定",
+    "path": "/conventions",
+    "icon": "pencil-line"
+  },
+  {
+    "title": "工具對比",
+    "path": "/comparison",
+    "icon": "scale"
+  },
+  {
+    "title": "疑難解答",
+    "path": "/troubleshooting",
+    "icon": "wrench"
+  },
+  {
+    "title": "GitHub",
+    "path": "https://github.com/stardial-astro/star-path-viewer",
+    "icon": "github",
+    "external": true
+  }
+]

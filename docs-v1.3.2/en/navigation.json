@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Go to Star Path Viewer",
+    "path": "https://star-path-viewer.pages.dev",
+    "icon": "play",
+    "external": true
+  },
+  {
+    "title": "Overview",
+    "path": "/",
+    "icon": "home"
+  },
+  {
+    "title": "Guides",
+    "icon": "telescope",
+    "collapsible": false,
+    "children": [
+      {
+        "title": "Location Input",
+        "path": "/guides/location",
+        "icon": "map"
+      },
+      {
+        "title": "Date Input",
+        "path": "/guides/date",
+        "icon": "calendar-1"
+      },
+      {
+        "title": "Star Input",
+        "path": "/guides/star",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Results",
+        "path": "/guides/results",
+        "icon": "orbit"
+      }
+    ]
+  },
+  {
+    "title": "Examples",
+    "path": "/examples",
+    "icon": "notebook"
+  },
+  {
+    "title": "Resources",
+    "path": "/resources",
+    "icon": "tool-case"
+  },
+  {
+    "title": "References",
+    "path": "/references",
+    "icon": "book-search"
+  },
+  {
+    "title": "Conventions",
+    "path": "/conventions",
+    "icon": "pencil-line"
+  },
+  {
+    "title": "Comparison",
+    "path": "/comparison",
+    "icon": "scale"
+  },
+  {
+    "title": "Troubleshooting",
+    "path": "/troubleshooting",
+    "icon": "wrench"
+  },
+  {
+    "title": "GitHub",
+    "path": "https://github.com/stardial-astro/star-path-viewer",
+    "icon": "github",
+    "external": true
+  }
+]

@@ -14,8 +14,8 @@ An online astronomical application for all-day star path tracking.
 ::: button "GitHub" external:https://github.com/stardial-astro/star-path-viewer color:#333 icon:github
 
 == side
-<img src="../../assets/images/spv-preview-dark.png" alt="Preview" width="280" class="img-dark align-center">
-<img src="../../assets/images/spv-preview-light.png" alt="Preview" width="280" class="img-light align-center">
+<img src="../../assets/images/latest/spv-preview-dark.png" alt="Preview" width="280" class="img-dark align-center">
+<img src="../../assets/images/latest/spv-preview-light.png" alt="Preview" width="280" class="img-light align-center">
 :::
 
 ## :rocket: Quick Start {#quick-start}
