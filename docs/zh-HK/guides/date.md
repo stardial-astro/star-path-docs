@@ -13,11 +13,11 @@ description: '填寫年月日或快速輸入二分二至日期'
 `年`的輸入值採用 [天文計年法][astronomical year numbering]，`0` 表示**公元前1年**。
 
 ::: callout info "日曆轉換"
-格里曆和儒略曆的日期會在生成圖像時同時返回。日期不會在切換這兩種歷時轉換，而是在計算軌跡的同時進行轉換。
+格里曆和儒略曆的日期會在生成圖像時同時返回。日期不會在切換這兩種日歷時轉換，而是在計算軌跡的同時進行轉換。
 :::
 
 ::: callout tip "農曆"
-如存在相應的[農曆][CC-python]日期，將[以提示的形式顯示在結果中][CC].
+如存在相應的[農曆][CC-python]日期，將[以提示的形式顯示在結果中][CC]。
 
 [CC-python]: https://github.com/ytliu0/ChineseCalendar-python/blob/master/README_simp.md
 [CC]: ./results/#chinese-calendar-tooltip
