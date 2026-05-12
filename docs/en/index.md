@@ -6,7 +6,7 @@ titleAppend: false
 
 ::: hero layout:split glow:false
 
-# Star Path Viewer
+# [Star Path Viewer](external:https://starpathviewer.cc/)
 
 An online astronomical application for all-day star path tracing.
 
@@ -20,7 +20,7 @@ An online astronomical application for all-day star path tracing.
 
 ## :rocket: Quick Start {#quick-start}
 
-[Star Path Viewer][] computes a planet or star's positions on the celestial sphere based on input. It generates a diagram with a curved path representing the [apparent motion][] projected onto the observer's local [horizontal coordinate system][]. A table of the rising/setting/transit/twilight times and star positions will also be appended.
+**[Star Path Viewer][]** computes a planet or star's positions on the celestial sphere based on input. It generates a diagram with a curved path representing the [apparent motion][] projected onto the observer's local [horizontal coordinate system][]. A table of the rising/setting/transit/twilight times and star positions will also be appended.
 
 **Step 1.** To make a request, please provide the [`LOCATION`][Location Input], [`LOCAL DATE`][Date Input], and [`CELESTIAL OBJECT`][Star Input].
 
@@ -42,7 +42,7 @@ An online astronomical application for all-day star path tracing.
 
 :::
 
-[Star Path Viewer]: external:https://star-path-viewer.pages.dev/
+[Star Path Viewer]: external:https://starpathviewer.cc/
 [apparent motion]: external:https://en.wikipedia.org/wiki/Diurnal_motion
 [horizontal coordinate system]: external:https://en.wikipedia.org/wiki/Horizontal_coordinate_system
 [Location Input]: ./guides/location

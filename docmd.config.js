@@ -4,14 +4,14 @@
 export default defineConfig({
   /* --- Core Metadata --- */
   title: 'Star Path Viewer Documentation',
-  url: 'https://star-path-docs.pages.dev/',
+  url: 'https://docs.starpathviewer.cc/',
 
   /* --- Branding --- */
   logo: {
     light: 'assets/images/spv-logo-docs-light.png',
     dark: 'assets/images/spv-logo-docs-dark.png',
     alt: 'StarPathViewer Logo',
-    href: 'https://star-path-viewer.pages.dev/',
+    href: 'https://starpathviewer.cc/',
   },
   favicon: 'assets/favicon.ico',
 

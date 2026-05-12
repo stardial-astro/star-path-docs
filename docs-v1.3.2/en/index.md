@@ -42,7 +42,7 @@ An online astronomical application for all-day star path tracing.
 
 :::
 
-[Star Path Viewer]: https://star-path-viewer.pages.dev/
+[Star Path Viewer]: https://starpathviewer.cc/
 [apparent motion]: https://en.wikipedia.org/wiki/Diurnal_motion
 [horizontal coordinate system]: https://en.wikipedia.org/wiki/Horizontal_coordinate_system
 [Location Input]: ./guides/location

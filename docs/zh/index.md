@@ -6,7 +6,7 @@ titleAppend: false
 
 ::: hero layout:split glow:false
 
-# Star Path Viewer
+# [Star Path Viewer](external:https://starpathviewer.cc/)
 
 全天星轨追踪在线天文工具
 
@@ -20,7 +20,7 @@ titleAppend: false
 
 ## :rocket: 开始 {#quick-start}
 
-[Star Path Viewer][] 根据输入信息计算选定天体于一天之内在天球上的[视运动][apparent motion]轨迹。生成的结果包含一个展示星轨的[地平坐标系][horizontal coordinate system]投影图以及一个包含升落、中天、晨昏蒙影数据的表格。
+**[Star Path Viewer][]** 根据输入信息计算选定天体于一天之内在天球上的[视运动][apparent motion]轨迹。生成的结果包含一个展示星轨的[地平坐标系][horizontal coordinate system]投影图以及一个包含升落、中天、晨昏蒙影数据的表格。
 
 **第一步：** 指定[`地理位置`][Location Input]、[`当地日期`][Date Input]并[`选择天体`][Star Input]。
 
@@ -42,7 +42,7 @@ titleAppend: false
 
 :::
 
-[Star Path Viewer]: external:https://star-path-viewer.pages.dev/
+[Star Path Viewer]: external:https://starpathviewer.cc/
 [apparent motion]: external:https://zh.wikipedia.org/wiki/%E5%91%A8%E6%97%A5%E9%81%8B%E5%8B%95
 [horizontal coordinate system]: external:https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
 [Location Input]: ./guides/location

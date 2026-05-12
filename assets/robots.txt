@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://star-path-docs.pages.dev/sitemap.xml
+Sitemap: https://docs.starpathviewer.cc/sitemap.xml
