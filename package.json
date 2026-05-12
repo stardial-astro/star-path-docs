@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "docmd dev",
     "live": "docmd live",
-    "build": "docmd build",
+    "build": "docmd build && cp site/assets/*.txt site/",
     "preview": "npx serve site"
   },
   "devDependencies": {
