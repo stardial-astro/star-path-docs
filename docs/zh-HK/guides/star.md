@@ -24,9 +24,9 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 如果某天體的編號在可檢索範圍內卻缺乏所需信息，將會給出相應提醒：
 ![無赤經赤緯數據](../../../assets/images/latest/image-64.png){ .img-light } ![無赤經赤緯數據](../../../assets/images/latest/image-65.png){ .img-dark } ![無編號](../../../assets/images/latest/image-66.png){ .img-light } ![無編號](../../../assets/images/latest/image-67.png){ .img-dark }
 
-[Bayer designation]: https://zh.wikipedia.org/wiki/%E6%8B%9C%E8%80%B3%E5%91%BD%E5%90%8D%E6%B3%95
-[proper name]: https://zh.wikipedia.org/wiki/%E6%81%86%E6%98%9F%E5%91%BD%E5%90%8D
-[HIP data]: https://cdsarc.cds.unistra.fr/ftp/cats/I/239
+[Bayer designation]: external:https://zh.wikipedia.org/wiki/%E6%8B%9C%E8%80%B3%E5%91%BD%E5%90%8D%E6%B3%95
+[proper name]: external:https://zh.wikipedia.org/wiki/%E6%81%86%E6%98%9F%E5%91%BD%E5%90%8D
+[HIP data]: external:https://cdsarc.cds.unistra.fr/ftp/cats/I/239
 
 :::
 
@@ -63,7 +63,7 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 ::: callout info "已含自行"
 使用依巴谷星表指定天體時，星軌計算中考慮了[自行][Proper motion]。
 
-[Proper motion]: https://zh.wikipedia.org/wiki/%E8%87%AA%E8%A1%8C
+[Proper motion]: external:https://zh.wikipedia.org/wiki/%E8%87%AA%E8%A1%8C
 
 :::
 
@@ -80,6 +80,6 @@ description: '通過選擇行星、輸入依巴谷星表編號或使用天球座
 使用赤經赤緯指定觀測目標時，星軌計算中不考慮自行，因為該座標點可能不對應任何天體。
 :::
 
-[ICRS]: https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/
-[RA]: https://zh.wikipedia.org/wiki/%E8%B5%A4%E7%BB%8F
-[Dec]: https://zh.wikipedia.org/wiki/%E8%B5%A4%E7%BA%AC
+[ICRS]: external:https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/
+[RA]: external:https://zh.wikipedia.org/wiki/%E8%B5%A4%E7%BB%8F
+[Dec]: external:https://zh.wikipedia.org/wiki/%E8%B5%A4%E7%BA%AC

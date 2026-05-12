@@ -7,7 +7,7 @@ The **geographic coordinates** will be used to determine the observer's local [h
 
 There are three ways to specify the location as follows.
 
-[horizontal coordinate system]: https://en.wikipedia.org/wiki/Horizontal_coordinate_system
+[horizontal coordinate system]: external:https://en.wikipedia.org/wiki/Horizontal_coordinate_system
 
 ## Find My Location {#gps}
 
@@ -32,10 +32,10 @@ When using QQ LBS service, addresses are displayed in Simplified Chinese. Tradit
 
 The geocoding service is automatically determined and cached when the page loads. If you see an incorrect service is in use, please check the system time zone, clear cache, then refresh the page and try again.
 
-[Nominatim]: https://docs.google.com/document/d/11LUy0wN44GcyYeCPPVCRmK9fMd8YHUEqMziP1tXX6h8/edit?tab=t.u3psio845x3b#heading=h.cpt3dlgbt6in
-[OpenStreetMap]: https://www.openstreetmap.org/
-[Tianditu]: http://lbs.tianditu.gov.cn/server/guide.html
-[QQ LBS service]: https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview
+[Nominatim]: external:https://nominatim.org/release-docs/latest/api/Overview/
+[OpenStreetMap]: external:https://www.openstreetmap.org/
+[Tianditu]: external:http://lbs.tianditu.gov.cn/server/guide.html
+[QQ LBS service]: external:https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview
 
 :::
 

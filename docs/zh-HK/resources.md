@@ -5,7 +5,7 @@ description: '引用資源'
 
 ## 星曆錶 {#ephemeris}
 
-**數據來源：** [美國噴氣推進實驗室（JPL）星曆錶](https://ssd.jpl.nasa.gov/planets/eph_export.html)
+**數據來源：** [美國噴氣推進實驗室（JPL）星曆錶](external:https://ssd.jpl.nasa.gov/planets/eph_export.html)
 
 **本項目中使用的星曆錶數據：** DE406
 
@@ -20,11 +20,11 @@ description: '引用資源'
 
 ## 依巴谷星表 {#hip}
 
-**數據來源：** [依巴谷和第谷星表](https://cdsarc.cds.unistra.fr/ftp/cats/I/239)
+**數據來源：** [依巴谷和第谷星表](external:https://cdsarc.cds.unistra.fr/ftp/cats/I/239)
 
 ## 拜耳星名和專有名稱 {#bayer-designation-and-proper-name}
 
-**數據來源：** [依巴谷和第谷星表中的交叉證認表](https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
+**數據來源：** [依巴谷和第谷星表中的交叉證認表](external:https://cdsarc.cds.unistra.fr/ftp/I/239/version_cd/tables)
 
 **表格：**
 `ident4` —— 拜耳星名與依巴谷星表編號
@@ -32,7 +32,7 @@ description: '引用資源'
 
 ## 中文星名 {#chinese-star-names}
 
-**原始表格（繁體中文）：** [香港天文台的亮星中英對照表](https://web.archive.org/web/20120209032035/http://www.lcsd.gov.hk/CE/Museum/Space/Research/StarName/c_research_chinengstars.htm)
+**原始表格（繁體中文）：** [香港天文台的亮星中英對照表](external:https://web.archive.org/web/20120209032035/http://www.lcsd.gov.hk/CE/Museum/Space/Research/StarName/c_research_chinengstars.htm)
 
 ::: collapsible "添加的條目"
 列表中添加了這些條目：
@@ -79,18 +79,18 @@ description: '引用資源'
 
 ## 簡繁轉換 {#ts-sc-conversion}
 
-**Python 包：** [開放中文轉換](https://pypi.org/project/OpenCC)
+**Python 包：** [開放中文轉換](external:https://pypi.org/project/OpenCC)
 
 用來將繁體中文星名錶轉換為簡體中文。
 
 ## 拼音 {#pinyin}
 
-**Python 包：** [漢字拼音轉換工具](https://github.com/mozillazg/python-pinyin)
+**Python 包：** [漢字拼音轉換工具](external:https://github.com/mozillazg/python-pinyin)
 
 用來將繁體中文星名錶轉換為拼音。
 
 ## 農曆 {#chinese-calendar}
 
-**Python 包：** [中歷-公曆轉換](https://github.com/ytliu0/ChineseCalendar-python)
+**Python 包：** [中歷-公曆轉換](external:https://github.com/ytliu0/ChineseCalendar-python)
 
 **支持的日期範圍：** 公元前722年至公元2200年

@@ -32,7 +32,7 @@ When using QQ LBS service, addresses are displayed in Simplified Chinese. Tradit
 
 The geocoding service is automatically determined and cached when the page loads. If you see an incorrect service is in use, please check the system time zone, clear cache, then refresh the page and try again.
 
-[Nominatim]: https://docs.google.com/document/d/11LUy0wN44GcyYeCPPVCRmK9fMd8YHUEqMziP1tXX6h8/edit?tab=t.u3psio845x3b#heading=h.cpt3dlgbt6in
+[Nominatim]: https://nominatim.org/release-docs/latest/api/Overview/
 [OpenStreetMap]: https://www.openstreetmap.org/
 [Tianditu]: http://lbs.tianditu.gov.cn/server/guide.html
 [QQ LBS service]: https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview

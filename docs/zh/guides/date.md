@@ -19,12 +19,12 @@ description: '填写年月日或快速输入二分二至日期'
 ::: callout tip "农历"
 如存在相应的[农历][CC-python]日期，将[以提示的形式显示在结果中][CC]。
 
-[CC-python]: https://github.com/ytliu0/ChineseCalendar-python/blob/master/README_simp.md
+[CC-python]: external:https://github.com/ytliu0/ChineseCalendar-python/blob/master/README_simp.md
 [CC]: ./results/#chinese-calendar-tooltip
 
 :::
 
-[astronomical year numbering]: https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%96%87%E8%A8%88%E5%B9%B4
+[astronomical year numbering]: external:https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%96%87%E8%A8%88%E5%B9%B4
 
 ## 查询二分二至日期 {#look-up-season}
 
@@ -37,5 +37,5 @@ description: '填写年月日或快速输入二分二至日期'
 
 在南半球，春分点即[三月分点][March equinox]，夏至点即[六月至点][June solstice]，以此类推。
 
-[March equinox]: https://zh.wikipedia.org/wiki/%E5%8C%97%E5%88%86%E9%BB%9E
-[June solstice]: https://zh.wikipedia.org/wiki/%E5%85%AD%E6%9C%88%E8%87%B3%E9%BB%9E
+[March equinox]: external:https://zh.wikipedia.org/wiki/%E5%8C%97%E5%88%86%E9%BB%9E
+[June solstice]: external:https://zh.wikipedia.org/wiki/%E5%85%AD%E6%9C%88%E8%87%B3%E9%BB%9E

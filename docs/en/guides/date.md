@@ -19,12 +19,12 @@ Dates in both calendars will be displayed after generating the diagram. Date con
 ::: callout tip "Chinese Calendar"
 The date in the [Chinese calendar][CC-python] will be [displayed as a tooltip][CC tooltip] if available.
 
-[CC-python]: https://github.com/ytliu0/ChineseCalendar-python
+[CC-python]: external:https://github.com/ytliu0/ChineseCalendar-python
 [CC tooltip]: ./results/#chinese-calendar-tooltip
 
 :::
 
-[astronomical year numbering]: https://en.wikipedia.org/wiki/Astronomical_year_numbering
+[astronomical year numbering]: external:https://en.wikipedia.org/wiki/Astronomical_year_numbering
 
 ## Look Up an Equinox/Solstice {#look-up-season}
 
@@ -37,5 +37,5 @@ For equinox/solstice queries, the dates are always in **Gregorian** calendar.
 
 In the southern hemisphere, the _vernal equinox_ is the [_March equinox_][March equinox], the _summer solstice_ is the [_June solstice_][June solstice], etc.
 
-[March equinox]: https://en.wikipedia.org/wiki/March_equinox
-[June solstice]: https://en.wikipedia.org/wiki/June_solstice
+[March equinox]: external:https://en.wikipedia.org/wiki/March_equinox
+[June solstice]: external:https://en.wikipedia.org/wiki/June_solstice

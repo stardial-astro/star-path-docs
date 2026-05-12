@@ -11,6 +11,6 @@
     "preview": "npx serve site"
   },
   "devDependencies": {
-    "@docmd/core": "^0.7.9"
+    "@docmd/core": "^0.8.0"
   }
 }

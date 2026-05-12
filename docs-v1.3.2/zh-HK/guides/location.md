@@ -30,7 +30,7 @@ description: '搜索地點或輸入經緯度'
 
 應用啟動時會自動判斷使用何種服務。如果發現自動選擇的服務有誤，請檢查系統時區、清空緩存然後刷新頁面重試。
 
-[Nominatim]: https://docs.google.com/document/d/11LUy0wN44GcyYeCPPVCRmK9fMd8YHUEqMziP1tXX6h8/edit?tab=t.u3psio845x3b#heading=h.cpt3dlgbt6in
+[Nominatim]: https://nominatim.org/release-docs/latest/api/Overview/
 [OpenStreetMap]: https://www.openstreetmap.org/
 [Tianditu]: http://lbs.tianditu.gov.cn/server/guide.html
 [QQ LBS service]: https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview

@@ -1,3 +1,25 @@
+.docmd/
+
+# Dependencies
+.pnpm-debug.log*
+
+# Build Outputs
+public/
+site/
+out/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Project Specific
+_backup/
+_documentation/
+temp-*/
+.cache/
+
+temp-live-test.mjs
+
 # Logs
 logs
 *.log
@@ -148,6 +170,5 @@ stylelintcach
 site
 genctx.config.json
 genctx.context.md
-.DS_Store
 pnpm-workspace.yaml
 pnpm-lock.yaml

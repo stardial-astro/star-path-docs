@@ -7,8 +7,8 @@ description: '惯例约定'
 
 当定义一颗星的**升落点**时，通常需要考虑[大气折射][atmospheric refraction]（蒙气差）。这个效应使升起的时间略早于无折射的情况，而下落时间则显得略晚。本项目中计算高度角和天体视运动轨迹时使用同一个大气模型。模型中使用标准大气压，温度为 10°C，由此得到的地平线处折射角约为 34 角分。更多细节请参阅本项目使用的主要 Python 科学包 [Skyfield][] 文档中的[计算折射角][computing your own refraction angle]部分。
 
-[computing your own refraction angle]: https://rhodesmill.org/skyfield/almanac.html#computing-your-own-refraction-angle
-[atmospheric refraction]: https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%B0%A3%E6%8A%98%E5%B0%84
+[computing your own refraction angle]: external:https://rhodesmill.org/skyfield/almanac.html#computing-your-own-refraction-angle
+[atmospheric refraction]: external:https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%B0%A3%E6%8A%98%E5%B0%84
 
 ## 日出和日落 {#sunrise-and-sunset}
 
@@ -16,8 +16,8 @@ description: '惯例约定'
 
 > *出于计算目的，日出日落被定义为……日面中心位于地平线下方 **50 角分**处……这 50 角分是通过将**太阳平均视半径**（16 角分）与**地平线处平均大气折射角**（34 角分）相加得到的。*
 
-[Skyfield]: https://rhodesmill.org/skyfield/
-[official definition of sunrise and sunset]: https://aa.usno.navy.mil/faq/RST_defs
+[Skyfield]: external:https://rhodesmill.org/skyfield/
+[official definition of sunrise and sunset]: external:https://aa.usno.navy.mil/faq/RST_defs
 
 ## 晨昏时分的天体可见度 {#visibility-during-twilights}
 
@@ -35,7 +35,7 @@ description: '惯例约定'
 - **民用曙光始/民用暮光终：** 此时在大部分天区亮于 1 等的星能够肉眼可见。
 - **航海曙光始/航海暮光终：** 此时在大部分天区亮于 4 等的星能够肉眼可见。
 
-[Tousey1953]: https://opg.optica.org/josa/viewmedia.cfm?uri=josa-43-3-177&seq=0&html=true
+[Tousey1953]: external:https://opg.optica.org/josa/viewmedia.cfm?uri=josa-43-3-177&seq=0&html=true
 
 ## 时区 {#time-zone}
 
@@ -43,8 +43,8 @@ description: '惯例约定'
 
 本项目中的时区标识（Time zone ID）和标准偏移量（standard offset）反映某地理位置的**当前时区**。这是为了保证生成稳定且无歧义的时区标识，同时也为用户提供更熟悉、更直观的当地时间参考。其取值仅用于计算二分二至日期、计算升落时间窗口以及结果表格中`标准时`这一列的数据显示。
 
-[Same since 1970]: https://github.com/evansiroky/timezone-boundary-builder#same-since-1970
-[IANA]: https://www.iana.org/time-zones
+[Same since 1970]: external:https://github.com/evansiroky/timezone-boundary-builder#same-since-1970
+[IANA]: external:https://www.iana.org/time-zones
 
 ## 角分和角秒符号 {#arcminute-and-arcsecond}
 
@@ -54,7 +54,7 @@ description: '惯例约定'
 
 ### ISO 8601
 
-[ISO 8601: 日期和时间格式](https://www.iso.org/iso-8601-date-and-time-format.html)
+[ISO 8601: 日期和时间格式](external:https://www.iso.org/iso-8601-date-and-time-format.html)
 
 ```text
 # ISO 8601-2:2019
@@ -64,6 +64,6 @@ description: '惯例约定'
 
 ### 公历纪元 {#common-era}
 
-[NASA 关于公历纪元表示方法的约定](https://eclipse.gsfc.nasa.gov/SEhelp/dates.html) 解释了使用 `BCE/CE` 代替 `BC/AD` 的理由：
+[NASA 关于公历纪元表示方法的约定](external:https://eclipse.gsfc.nasa.gov/SEhelp/dates.html) 解释了使用 `BCE/CE` 代替 `BC/AD` 的理由：
 
 > *近年来，一些历史学者提倡使用宗教中立的缩写词 BCE（公元前）代替“BC”、使用“CE”（公元）代替“AD”。由于这种表示方法的两个缩写都是后缀，因此更适合计算机表格的显示。*

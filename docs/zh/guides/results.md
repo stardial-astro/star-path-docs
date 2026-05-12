@@ -27,9 +27,9 @@ description: '显示相关信息、星轨图和数据表格'
 如果查询的日期可被转换为农历，该农历日期将显示为浮动提示。光标悬停在格里历或儒略历日期上（在移动端则轻触）即可看到提示。
 ![Date in Chinese calendar](../../../assets/images/latest/image-88.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/latest/image-89.png){ .img-dark }
 
-[horizontal coordinate system]: https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
-[north and south celestial poles]: https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%A5%B5
-[zenith]: https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%A0%82
+[horizontal coordinate system]: external:https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
+[north and south celestial poles]: external:https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%A5%B5
+[zenith]: external:https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%A0%82
 
 ## 图例与坐标时刻表 {#legend-and-table}
 
@@ -49,7 +49,7 @@ description: '显示相关信息、星轨图和数据表格'
 
 关于**标准时**，参见[时区][Time Zone]部分的说明。
 
-[LMT]: https://zh.wikipedia.org/wiki/%E5%9C%B0%E6%96%B9%E5%B9%B3%E6%99%82
+[LMT]: external:https://zh.wikipedia.org/wiki/%E5%9C%B0%E6%96%B9%E5%B9%B3%E6%99%82
 [Time Zone]: ../conventions/#time-zone
 
 :::
@@ -57,7 +57,7 @@ description: '显示相关信息、星轨图和数据表格'
 ::: callout info "大气折射（蒙气差）"
 计算天体位置时考虑了[大气折射][atmospheric refraction]效应。更多细节参见[计算高度角][Altitude Calculation]部分。
 
-[atmospheric refraction]: https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%B0%A3%E6%8A%98%E5%B0%84
+[atmospheric refraction]: external:https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%B0%A3%E6%8A%98%E5%B0%84
 [Altitude Calculation]: ../conventions/#altitude-calculation
 
 :::

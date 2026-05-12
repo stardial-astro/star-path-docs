@@ -27,9 +27,9 @@ If the querying star never rises on the given date observed from the certain loc
 If the querying date is able to be converted to the Chinese calendar, the converted date is placed as a tooltip. Hovering on the Gregorian or Julian date (or tapping on mobile devices) shows it.
 ![Date in Chinese calendar](../../../assets/images/latest/image-80.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/latest/image-81.png){ .img-dark }
 
-[horizontal coordinate system]: https://en.wikipedia.org/wiki/Horizontal_coordinate_system
-[north and south celestial poles]: https://en.wikipedia.org/wiki/Celestial_pole
-[zenith]: https://en.wikipedia.org/wiki/Zenith
+[horizontal coordinate system]: external:https://en.wikipedia.org/wiki/Horizontal_coordinate_system
+[north and south celestial poles]: external:https://en.wikipedia.org/wiki/Celestial_pole
+[zenith]: external:https://en.wikipedia.org/wiki/Zenith
 
 ## Legend and Table of Coordinates and Times {#legend-and-table}
 
@@ -49,7 +49,7 @@ The [Local Mean Time (LMT)][LMT] in the table is derived directly from the obser
 
 About the **Standard Time**, see [Time Zone] section for details.
 
-[LMT]: https://en.wikipedia.org/wiki/Local_mean_time
+[LMT]: external:https://en.wikipedia.org/wiki/Local_mean_time
 [Time Zone]: ../conventions/#time-zone
 
 :::
@@ -57,7 +57,7 @@ About the **Standard Time**, see [Time Zone] section for details.
 ::: callout info "Atmospheric Refraction"
 The [atmospheric refraction][] has been taken into account in the position calculation. See [Altitude Calculation][] for more details.
 
-[atmospheric refraction]: https://en.wikipedia.org/wiki/Atmospheric_refraction
+[atmospheric refraction]: external:https://en.wikipedia.org/wiki/Atmospheric_refraction
 [Altitude Calculation]: ../conventions/#altitude-calculation
 
 :::

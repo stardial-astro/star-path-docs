@@ -24,9 +24,9 @@ The available HIP filtered from the [HIP data source][HIP data] ranges from `1` 
 If a HIP is invalid even within the range, a notification will appear after submitting the request:
 ![No radec](../../../assets/images/latest/image-32.png){ .img-light } ![No radec](../../../assets/images/latest/image-33.png){ .img-dark } ![No entry](../../../assets/images/latest/image-34.png){ .img-light } ![No entry](../../../assets/images/latest/image-35.png){ .img-dark }
 
-[Bayer designation]: https://en.wikipedia.org/wiki/Bayer_designation
-[proper name]: https://en.wikipedia.org/wiki/Stellar_designations_and_names
-[HIP data]: https://cdsarc.cds.unistra.fr/ftp/cats/I/239
+[Bayer designation]: external:https://en.wikipedia.org/wiki/Bayer_designation
+[proper name]: external:https://en.wikipedia.org/wiki/Stellar_designations_and_names
+[HIP data]: external:https://cdsarc.cds.unistra.fr/ftp/cats/I/239
 
 :::
 
@@ -63,7 +63,7 @@ You can use either `v`, `yu`, or `u` for `ü`.
 ::: callout info "Proper Motion Included"
 [Proper motion][] is included in calculation if the target is specified by a Hipparcos Catalogue number.
 
-[Proper motion]: https://en.wikipedia.org/wiki/Proper_motion
+[Proper motion]: external:https://en.wikipedia.org/wiki/Proper_motion
 
 :::
 
@@ -80,6 +80,6 @@ or both in **decimal degrees**:
 Proper motion is not considered if the target is specified by RA/Dec, because the values are the coordinates of a point, and there may not be any actual celestial bodies at this position.
 :::
 
-[ICRS]: https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/
-[RA]: https://en.wikipedia.org/wiki/Right_ascension
-[Dec]: https://en.wikipedia.org/wiki/Declination
+[ICRS]: external:https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/
+[RA]: external:https://en.wikipedia.org/wiki/Right_ascension
+[Dec]: external:https://en.wikipedia.org/wiki/Declination

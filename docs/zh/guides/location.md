@@ -5,7 +5,7 @@ description: '搜索地点或输入经纬度'
 
 观测者的**地理坐标**用来确定当地的[地平坐标系][horizontal coordinate system]。这个位置可通过以下三种方式指定。
 
-[horizontal coordinate system]: https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
+[horizontal coordinate system]: external:https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
 
 ## 定位当前位置 {#gps}
 
@@ -30,10 +30,10 @@ description: '搜索地点或输入经纬度'
 
 应用启动时会自动判断使用何种服务。如果发现自动选择的服务有误，请检查系统时区、清空缓存然后刷新页面重试。
 
-[Nominatim]: https://docs.google.com/document/d/11LUy0wN44GcyYeCPPVCRmK9fMd8YHUEqMziP1tXX6h8/edit?tab=t.u3psio845x3b#heading=h.cpt3dlgbt6in
-[OpenStreetMap]: https://www.openstreetmap.org/
-[Tianditu]: http://lbs.tianditu.gov.cn/server/guide.html
-[QQ LBS service]: https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview
+[Nominatim]: external:https://nominatim.org/release-docs/latest/api/Overview/
+[OpenStreetMap]: external:https://www.openstreetmap.org/
+[Tianditu]: external:http://lbs.tianditu.gov.cn/server/guide.html
+[QQ LBS service]: external:https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview
 
 :::
 
