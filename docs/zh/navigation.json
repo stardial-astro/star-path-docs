@@ -1,5 +1,11 @@
 [
   {
+    "title": "打开 Star Path Viewer",
+    "path": "https://starpathviewer.cc/",
+    "icon": "play",
+    "external": true
+  },
+  {
     "title": "概览",
     "path": "/",
     "icon": "home"
@@ -60,5 +66,11 @@
     "title": "疑难解答",
     "path": "/troubleshooting",
     "icon": "wrench"
+  },
+  {
+    "title": "GitHub",
+    "path": "https://github.com/stardial-astro/star-path-viewer",
+    "icon": "github",
+    "external": true
   }
 ]
