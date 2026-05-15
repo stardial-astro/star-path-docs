@@ -45,12 +45,12 @@
   {
     "title": "Resources",
     "path": "/resources",
-    "icon": "tool-case"
+    "icon": "package"
   },
   {
     "title": "References",
     "path": "/references",
-    "icon": "book-search"
+    "icon": "library-big"
   },
   {
     "title": "Conventions",

@@ -45,12 +45,12 @@
   {
     "title": "引用資源",
     "path": "/resources",
-    "icon": "tool-case"
+    "icon": "package"
   },
   {
     "title": "參考資料",
     "path": "/references",
-    "icon": "book-search"
+    "icon": "library-big"
   },
   {
     "title": "慣例約定",

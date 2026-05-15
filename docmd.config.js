@@ -119,11 +119,11 @@ export default defineConfig({
 
   /* --- Versioning --- */
   versions: {
-    current: '1.3.3',
+    current: '1.3',
     position: 'sidebar-top',
     all: [
-      { id: '1.3.3', dir: 'docs', label: '1.3.3' },
-      { id: '1.3.2', dir: 'docs-v1.3.2', label: '1.3.2' },
+      { id: '1.3', dir: 'docs', label: '1.3' },
+      // { id: '1.3.2', dir: 'docs-v1.3.2', label: '1.3.2' },
     ],
   },
 
