@@ -8,9 +8,11 @@ description: '填寫年月日或快速輸入二分二至日期'
 ## 輸入格里曆或儒略曆日期 {#enter-date}
 
 可查詢的日期範圍為：**公元前3001年2月23日（儒略曆）**至**公元3000年5月6日（格里曆）**。
-![輸入日期](../../../assets/images/latest/image-24.png){ .img-light } ![輸入日期](../../../assets/images/latest/image-25.png){ .img-dark }
+![輸入日期](../../../assets/images/latest/2-01_zh-HK_0.png){ .img-light } ![輸入日期](../../../assets/images/latest/2-01_zh-HK_1.png){ .img-dark }
 
 `年`的輸入值採用 [天文計年法][astronomical year numbering]，`0` 表示**公元前1年**。
+
+對於格里曆/儒略曆引入之前的日期，使用的是前推格里曆/儒略曆。
 
 ::: callout info "日曆轉換"
 格里曆和儒略曆的日期會在生成圖像時同時返回。日期不會在切換這兩種日歷時轉換，而是在計算軌跡的同時進行轉換。
@@ -29,7 +31,7 @@ description: '填寫年月日或快速輸入二分二至日期'
 ## 查詢二分二至日期 {#look-up-season}
 
 當`年`已給定且已選定了地點時，點擊`快捷輸入`面板上其中一個**二分二至**按鈕，可自動填入相應日期。該日期以當地的**標準時**顯示。
-![二分二至](../../../assets/images/latest/image-26.png){ .img-light } ![二分二至](../../../assets/images/latest/image-27.png){ .img-dark }
+![二分二至](../../../assets/images/latest/2-02_zh-HK_0.png){ .img-light } ![二分二至](../../../assets/images/latest/2-02_zh-HK_1.png){ .img-dark }
 
 ::: callout info
 二分二至日期時始終顯示為**格里曆**。

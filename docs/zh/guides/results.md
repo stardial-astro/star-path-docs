@@ -8,24 +8,28 @@ description: '显示相关信息、星轨图和数据表格'
 点击`绘制星轨`按钮发送请求后，服务器会以图片和表格形式返回结果。查询的地点、日期、天体等信息将同时显示在图像上方。
 
 ::: callout info "关于速度"
-由于这是一个非商用的开源项目，我们服务器的搭载使用的是免费计划。因此，连接和运算时间偶尔会比预计长一些，但通常最多等待几秒钟即可获得结果。
+由于本项目非营利，我们服务器的搭载使用的是免费计划。因此，连接和运算时间偶尔会比预计长一些，但通常最多等待几秒钟即可获得结果。
 :::
 
 天体的视运动轨迹投影在[地平坐标系][horizontal coordinate system]上。该坐标系的两个独立坐标分别为**高度角**（地平纬度）和**方位角**（地平经度）。图中最外圈表示地平线。[南北天极][north and south celestial poles]和[天顶][zenith]如果在坐标范围内，将分别标记为 `NCP`、`SCP` 和 `Z`。
 
 ::: collapsible "图像示例"
-![图像](../../../assets/images/latest/image-84.png){ .img-light } ![图像](../../../assets/images/latest/image-85.png){ .img-dark }
+![图像](../../../assets/images/latest/4-01_zh_0.png){ .img-light } ![图像](../../../assets/images/latest/4-01_zh_1.png){ .img-dark }
+
+::: callout tip
+按住 `Alt` 键（macOS 系统上按 `⌥ Option` 键）可放大光标所在位置。
+:::
 :::
 
 ::: callout info "如果天体未升起"
 如果对所选地点和日期，查询的天体未曾升起，则显示提示：
-![Star Never Rises](../../../assets/images/latest/image-102.png){ .img-light } ![Star Never Rises](../../../assets/images/latest/image-103.png){ .img-dark }
+![Star Never Rises](../../../assets/images/latest/4-02_zh_0.png){ .img-light } ![Star Never Rises](../../../assets/images/latest/4-02_zh_1.png){ .img-dark }
 :::
 
 ### 农历日期 {#chinese-calendar-tooltip}
 
 如果查询的日期可被转换为农历，该农历日期将显示为浮动提示。光标悬停在格里历或儒略历日期上（在移动端则轻触）即可看到提示。
-![Date in Chinese calendar](../../../assets/images/latest/image-88.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/latest/image-89.png){ .img-dark }
+![Date in Chinese calendar](../../../assets/images/latest/4-03_zh_0.png){ .img-light } ![Date in Chinese calendar](../../../assets/images/latest/4-03_zh_1.png){ .img-dark }
 
 [horizontal coordinate system]: external:https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%B9%B3%E5%9D%90%E6%A8%99%E7%B3%BB
 [north and south celestial poles]: external:https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%A5%B5
@@ -34,11 +38,11 @@ description: '显示相关信息、星轨图和数据表格'
 ## 图例与坐标时刻表 {#legend-and-table}
 
 图中的星轨根据不同晨昏阶段使用不同线型绘制加以区分。所选天体在升落和中天的位置也标记在图中。图片下方附带了图例和数据表格供参考。表格中包含了这些标记点的相应坐标和时刻。
-![表格](../../../assets/images/latest/image-86.png){ .img-light } ![表格](../../../assets/images/latest/image-87.png){ .img-dark }
+![表格](../../../assets/images/latest/4-04_zh_0.png){ .img-light } ![表格](../../../assets/images/latest/4-04_zh_1.png){ .img-dark }
 
 ::: callout tip "标记点说明"
 光标悬停在 **ⓘ** 符号上（在移动端则轻触）可打开相应标记点的解释。参见[惯例约定][Conventions]部分。
-![标记点说明](../../../assets/images/latest/image-90.png){ .img-light } ![标记点说明](../../../assets/images/latest/image-91.png){ .img-dark }
+![标记点说明](../../../assets/images/latest/4-05_zh_0.png){ .img-light } ![标记点说明](../../../assets/images/latest/4-05_zh_1.png){ .img-dark }
 
 [Conventions]: ../conventions/
 

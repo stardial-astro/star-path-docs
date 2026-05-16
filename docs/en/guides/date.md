@@ -8,9 +8,11 @@ Specify the observer's **local date** by filling out each field or querying an *
 ## Enter a Date in the Gregorian or Julian Calendar {#enter-date}
 
 The valid date range is from **February 23, 3001 BCE (Julian)** to **May 6, 3000 CE (Gregorian)**.
-![Enter date](../../../assets/images/latest/image-16.png){ .img-light } ![Enter date](../../../assets/images/latest/image-17.png){ .img-dark }
+![Enter date](../../../assets/images/latest/2-01_en_0.png){ .img-light } ![Enter date](../../../assets/images/latest/2-01_en_1.png){ .img-dark }
 
 The `Year` input value follows the [astronomical year numbering][]. `0` means **1 BCE**.
+
+Proleptic Gregorian/Julian calendar is used for dates before its introduction.
 
 ::: callout info "Calendar Conversion"
 Dates in both calendars will be displayed after generating the diagram. Date conversion is not performed when toggling from one calendar to another but will be done during the star path calculation.
@@ -26,10 +28,10 @@ The date in the [Chinese calendar][CC-python] will be [displayed as a tooltip][C
 
 [astronomical year numbering]: external:https://en.wikipedia.org/wiki/Astronomical_year_numbering
 
-## Look Up an Equinox/Solstice {#look-up-season}
+## Look Up an Equinox or Solstice {#look-up-season}
 
 When the `Year` is given and a location is specified, click one of the four **equinox/solstice** buttons on the `Quick Entry` panel to auto-fill the date in the **Standard Time** of this location.
-![Equinoxes/Solstices](../../../assets/images/latest/image-18.png){ .img-light } ![Equinoxes/Solstices](../../../assets/images/latest/image-19.png){ .img-dark }
+![Equinoxes/Solstices](../../../assets/images/latest/2-02_en_0.png){ .img-light } ![Equinoxes/Solstices](../../../assets/images/latest/2-02_en_1.png){ .img-dark }
 
 ::: callout info
 For equinox/solstice queries, the dates are always in **Gregorian** calendar.

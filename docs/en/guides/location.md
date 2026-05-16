@@ -13,21 +13,21 @@ There are three ways to specify the location as follows.
 
 In the `SEARCH ADDRESS` tab, click the GPS icon in the search bar to find the address of the current location. This step will also assign the **coordinates** of this location.
 If the GPS fails, the IP location will be used as a fallback.
-![Find My Location](../../../assets/images/latest/image-1.png){ .img-light } ![Find My Location](../../../assets/images/latest/image.png){ .img-dark }
+![Find My Location](../../../assets/images/latest/1-01_en_0.png){ .img-light } ![Find My Location](../../../assets/images/latest/1-en-01.png){ .img-dark }
 
 ## Search Address {#search-address}
 
-![Search address](../../../assets/images/latest/image-2.png){ .img-light } ![Search address](../../../assets/images/latest/image-3.png){ .img-dark }
+![Search address](../../../assets/images/latest/1-02_en_0.png){ .img-light } ![Search address](../../../assets/images/latest/1-02_en_1.png){ .img-dark }
 
 After setting up an address, the **latitude** and **longitude** values will be stored in the background. If you switch to the `ENTER COORDINATES` tab right after selecting an address, you'll see that the coordinates are filled out already. Note that if you switch back to `SEARCH ADDRESS`, the address and coordinates will be both cleared.
-![Coordinates displayed](../../../assets/images/latest/image-6.png){ .img-light } ![Coordinates displayed](../../../assets/images/latest/image-7.png){ .img-dark }
+![Coordinates displayed](../../../assets/images/latest/1-03_en_0.png){ .img-light } ![Coordinates displayed](../../../assets/images/latest/1-03_en_1.png){ .img-dark }
 
 ::: card "Geocoding Service in Use"
-The default geocoding service is [Nominatim][] using [OpenStreetMap][] data. Within the Great Firewall of China (GFW), [Tianditu][] will be used for reverse geocoding and [QQ LBS service][] will be used for searching as Nominatim is inaccessible. In this case, we recommend using Chinese search terms for better results.
-![Search with QQ](../../../assets/images/latest/image-4.png){ .img-light } ![Search with QQ](../../../assets/images/latest/image-5.png){ .img-dark }
+The default geocoding service is [Nominatim][] using [OpenStreetMap][] data. Within the Great Firewall of China (GFW), [Tianditu][] will be used for reverse geocoding and [QQ LBS service][] will be used for searching as Nominatim is inaccessible. In this case, we recommend using Simplified Chinese search terms for better results.
+![Search with QQ](../../../assets/images/latest/1-04_en_0.png){ .img-light } ![Search with QQ](../../../assets/images/latest/1-04_en_1.png){ .img-dark }
 
 ::: callout warning
-When using QQ LBS service, addresses are displayed in Simplified Chinese. Traditional Chinese display is currently not supported.
+In the case of Tianditu or QQ LBS service, addresses are displayed in Simplified Chinese. Display in English or Traditional Chinese is currently not supported. The Tianditu and QQ LBS service currently used in this app only supports addresses within China.
 :::
 
 The geocoding service is automatically determined and cached when the page loads. If you see an incorrect service is in use, please check the system time zone, clear cache, then refresh the page and try again.

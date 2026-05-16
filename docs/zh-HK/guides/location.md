@@ -10,23 +10,25 @@ description: '搜索地點或輸入經緯度'
 ## 定位當前位置 {#gps}
 
 在`搜索地址`模式，點擊按鈕進行定位。這一步會自動設定**經緯度**。如果定位失敗，將自動使用 IP 地址獲得粗略的經緯度。
-![定位當前位置](../../../assets/images/latest/image-10.png){ .img-light } ![定位當前位置](../../../assets/images/latest/image-11.png){ .img-dark }
+![定位當前位置](../../../assets/images/latest/1-01_zh-HK_0.png){ .img-light } ![定位當前位置](../../../assets/images/latest/1-01_zh-HK_1.png){ .img-dark }
 
 ## 搜索地址 {#search-address}
 
-![搜索地址](../../../assets/images/latest/image-2.png){ .img-light } ![搜索地址](../../../assets/images/latest/image-3.png){ .img-dark }
+![搜索地址](../../../assets/images/latest/1-02_zh-HK_0.png){ .img-light } ![搜索地址](../../../assets/images/latest/1-02_zh-HK_1.png){ .img-dark }
 
 確定地址後，後台將同時記錄得到的經緯度數據。此時如果切換到`輸入座標`模式，會發現經緯度已經填好了。
 需要注意的是如果此時再次切回`搜索地址`模式，地理位置信息將被清空。
-![顯示經緯度](../../../assets/images/latest/image-14.png){ .img-light } ![顯示經緯度](../../../assets/images/latest/image-15.png){ .img-dark }
+![顯示經緯度](../../../assets/images/latest/1-03_zh-HK_0.png){ .img-light } ![顯示經緯度](../../../assets/images/latest/1-03_zh-HK_1.png){ .img-dark }
 
 ::: card "地理位置服務"
-境外的默認地理位置服務是 [Nominatim][]，使用開放地圖數據 [OpenStreetMap][]。 在牆內將使用[天地圖][Tianditu]進行定位以及[騰訊位置服務][QQ LBS service]進行搜索。這種情況推薦使用中文搜索以得到相對準確的結果。
-![使用騰訊位置服務](../../../assets/images/latest/image-12.png){ .img-light } ![使用騰訊位置服務](../../../assets/images/latest/image-13.png){ .img-dark }
+在牆內訪問時將使用[天地圖][Tianditu]進行定位以及[騰訊位置服務][QQ LBS service]進行搜索。這種情況下推薦使用中文搜索以得到更準確的結果。
 
 ::: callout warning
-使用騰訊位置服務時，地址選項將顯示為簡體中文，暫不支持以繁體中文顯示。
+對使用天地圖或騰訊位置服務的情況，地址選項將顯示為簡體中文，暫不支持以繁體中文或英文顯示。本應用中當前使用的天地圖和騰訊位置服務僅支持搜索和定位中國境內的地址。
 :::
+
+在境外訪問時默認的地理位置服務是 [Nominatim][]，使用開放地圖數據 [OpenStreetMap][]，可搜索和定位全球地理位置。
+![使用Nominatim](../../../assets/images/latest/1-04_zh-HK_0.png){ .img-light } ![使用Nominatim](../../../assets/images/latest/1-04_zh-HK_1.png){ .img-dark }
 
 應用啟動時會自動判斷使用何種服務。如果發現自動選擇的服務有誤，請檢查系統時區、清空緩存然後刷新頁面重試。
 
