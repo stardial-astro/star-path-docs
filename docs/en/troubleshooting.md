@@ -11,9 +11,9 @@ Typically, if there are invalid input values or any errors, the button will be d
 
 ### Nothing happens after clicking draw button {#draw-btn-not-working}
 
-If the querying parameters (latitude/longitude, date, and star information) are the same as the last time, it displays the cached result unless the data stales. In this case, if the results from the last query is not cleared before the current request (e.g., by refreshing the page), the content on the page stays unchanged.
+If the querying parameters (latitude/longitude, date, and star information) are the same as the last time, it displays the cached result unless the data stales. In this case, if the results from the last query is not cleared out before sending the current request (e.g., by refreshing the page), the content on the page stays unchanged.
 
-In addition, we also cache data for the equinox/solstice queries.
+The results of the equinox/solstice queries are also cached.
 
 ### Server is inaccessible {#server-inaccessible}
 
