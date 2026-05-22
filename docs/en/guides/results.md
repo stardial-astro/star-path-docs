@@ -82,7 +82,7 @@ The information about this query will be embedded as the **metadata** in `SVG`:
 </metadata>
 ```
 
-or as the `Description` of the document properties in `PDF`:
+or as the `Description` (or `Subject`) of the document properties in `PDF`:
 
 ```text
 Location (lat/lng): 32.055/118.779,
